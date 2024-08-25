@@ -1,25 +1,24 @@
-import { useState } from "react";
 import { useQuiz } from "../../hooks/useQuiz";
 
 export default function QuizAnswers() {
-  const { getAllAnswersToQuestionById, currentQuestionIndex, getAllQuestionsToCategory, selectCategory, getCorrectAnswerToQuestionById, updateScoreByCorrectAnswer } = useQuiz();
-  const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
-  const [isAnswered, setIsAnswered] = useState<boolean>(false); // Adiciona estado para controlar se a pergunta foi respondida
+  const { 
+    getAllAnswersToQuestionById,
+    currentQuestionIndex,
+    getAllQuestionsToCategory,
+    selectCategory,
+    getCorrectAnswerToQuestionById,
+    selectedAnswer,
+    isAnswered,
+    handleAnswerClick
+  } = useQuiz();
 
+  
   const questions = getAllQuestionsToCategory(selectCategory);
   const currentQuestion = questions[currentQuestionIndex];
 
   if (!currentQuestion) return null;
 
   const answers = getAllAnswersToQuestionById(currentQuestion.id);
-
-  const handleAnswerClick = (answer: string) => {
-    if (!isAnswered) { // Verifica se a pergunta ainda não foi respondida
-      setSelectedAnswer(answer);
-      setIsAnswered(true); // Marca a pergunta como respondida
-      updateScoreByCorrectAnswer(answer, currentQuestion.id); // Atualiza a pontuação ao clicar
-    }
-  };
 
   return (
     <div className="flex justify-center items-center">

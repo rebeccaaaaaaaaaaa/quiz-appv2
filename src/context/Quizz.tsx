@@ -29,6 +29,11 @@ interface QuizzContextData {
   isLastQuestion: boolean;
   restartGame: () => void;
   checkIfLastQuestionIsReply: () => boolean;
+  selectedAnswer: string | null;
+  setSelectedAnswer: (answer: string) => void;
+  isAnswered: boolean;
+  setIsAnswered: (isAnswered: boolean) => void;
+  handleAnswerClick: (answer: string) => void;
 }
 
 interface QuizzContextProps {
@@ -44,7 +49,9 @@ export function QuizzProvider({ children }: QuizzContextProps) {
   const [score, setScore] = useState<number>(0);
   const [answeredQuestions, setAnsweredQuestions] = useState<Record<number, boolean>>({});
   const isLastQuestion = currentQuestionIndex === getTotalQuestionsInCategory(selectCategory) - 1;
-
+  const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
+  const [isAnswered, setIsAnswered] = useState<boolean>(false);
+  
   function getCategories(): string[] {
     if (quizData) {
       const categories = quizData.questions.map(question => question.category);
@@ -111,6 +118,14 @@ export function QuizzProvider({ children }: QuizzContextProps) {
     }
   }
 
+  const handleAnswerClick = (answer: string) => {
+    if (!isAnswered) { // Verifica se a pergunta ainda não foi respondida
+      setSelectedAnswer(answer);
+      setIsAnswered(true); // Marca a pergunta como respondida
+      updateScoreByCorrectAnswer(answer, currentQuestionIndex); // Atualiza a pontuação ao clicar
+    }
+  };
+
   function restartGame() {
     setSelectCategory('');
     setCurrentQuestionIndex(0);
@@ -156,7 +171,12 @@ export function QuizzProvider({ children }: QuizzContextProps) {
       updateScoreByCorrectAnswer,
       isLastQuestion,
       restartGame,
-      checkIfLastQuestionIsReply
+      checkIfLastQuestionIsReply,
+      selectedAnswer,
+      setSelectedAnswer,
+      isAnswered,
+      setIsAnswered,
+      handleAnswerClick
     }}>
       {children}
     </QuizContext.Provider>
