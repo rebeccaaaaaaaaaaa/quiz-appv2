@@ -22,6 +22,7 @@ interface QuizzContextData {
   getAllAnswersToQuestionById: (questionId: number) => string[];
   currentQuestionIndex: number;
   nextQuestion: () => void;
+  getTotalQuestionsInCategory: (category: string) => number;
 }
 
 interface QuizzContextProps {
@@ -48,6 +49,13 @@ export function QuizzProvider({ children }: QuizzContextProps) {
       return quizData.questions.filter(question => question.category === category);
     }
     return [];
+  }
+
+  function getTotalQuestionsInCategory (category: string): number {
+    if (quizData) {
+      return quizData.questions.filter(question => question.category === category).length;
+    }
+    return 0;
   }
 
   function getAllAnswersToQuestionById(questionId: number): string[] {
@@ -97,7 +105,8 @@ export function QuizzProvider({ children }: QuizzContextProps) {
       getAllQuestionsToCategory,
       getAllAnswersToQuestionById,
       currentQuestionIndex,
-      nextQuestion
+      nextQuestion,
+      getTotalQuestionsInCategory
     }}>
       {children}
     </QuizContext.Provider>
