@@ -66,9 +66,9 @@ export function QuizzProvider({ children }: QuizzContextProps) {
   function updateScoreByCorrectAnswer(selectedAnswer: string, questionId: number) {
     const correctAnswer = getCorrectAnswerToQuestionById(questionId);
     if (correctAnswer && selectedAnswer === correctAnswer) {
-      setScore(prevScore => prevScore + 1); // Incrementa a pontuação se a resposta estiver correta
+      setScore(prevScore => prevScore + 1);
     }
-    setAnsweredQuestions(prev => ({ ...prev, [questionId]: true })); // Marca a pergunta como respondida
+    setAnsweredQuestions(prev => ({ ...prev, [questionId]: true }));
   }
 
   function getScoreByCorrectAwnsers(): number {
@@ -122,12 +122,15 @@ export function QuizzProvider({ children }: QuizzContextProps) {
   }
 
   const handleAnswerClick = (answer: string) => {
-    if (!isAnswered) { // Verifica se a pergunta ainda não foi respondida
+    const questions = getAllQuestionsToCategory(selectCategory);
+    const currentQuestion = questions[currentQuestionIndex]; // Derivando a pergunta com base no índice
+  
+    if (currentQuestion && !isAnswered) {
       setSelectedAnswer(answer);
-      setIsAnswered(true); // Marca a pergunta como respondida
-      updateScoreByCorrectAnswer(answer, currentQuestionIndex); // Atualiza a pontuação ao clicar
+      setIsAnswered(true); 
+      updateScoreByCorrectAnswer(answer, currentQuestion.id); // Passa o id correto da pergunta
     }
-  };
+  }
 
   function restartGame() {
     setSelectCategory('');
