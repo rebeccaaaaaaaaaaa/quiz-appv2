@@ -1,18 +1,17 @@
 import QuizButton from '../../components/Button'
 import Layout from '../../components/Layout'
-import QuizLogo from '../../components/Logo'
-import Logo from '../../assets/logo.png'
 import { Link } from 'react-router-dom'
+import QuizUserName from '../../components/UserName'
 
-function App() {
+function PlayerName() {
   return (
     <Layout>
-      <QuizLogo src={Logo} alt="Alura Quiz" className='w-96'/>
-      <Link to="/player">
+      <QuizUserName />
+      <Link to="/categories" className='mt-5'>
         <QuizButton className='bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded w-full' buttonText='Iniciar jogo'/>
       </Link>
     </Layout>
   )
 }
 
-export default App
+export default PlayerName

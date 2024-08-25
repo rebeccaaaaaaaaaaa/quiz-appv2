@@ -34,6 +34,8 @@ interface QuizzContextData {
   isAnswered: boolean;
   setIsAnswered: (isAnswered: boolean) => void;
   handleAnswerClick: (answer: string) => void;
+  playerName: string;
+  setPlayerName: (name: string) => void;
 }
 
 interface QuizzContextProps {
@@ -51,6 +53,7 @@ export function QuizzProvider({ children }: QuizzContextProps) {
   const isLastQuestion = currentQuestionIndex === getTotalQuestionsInCategory(selectCategory) - 1;
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [isAnswered, setIsAnswered] = useState<boolean>(false);
+  const [playerName, setPlayerName] = useState<string>('');
   
   function getCategories(): string[] {
     if (quizData) {
@@ -176,7 +179,9 @@ export function QuizzProvider({ children }: QuizzContextProps) {
       setSelectedAnswer,
       isAnswered,
       setIsAnswered,
-      handleAnswerClick
+      handleAnswerClick,
+      playerName,
+      setPlayerName,
     }}>
       {children}
     </QuizContext.Provider>
