@@ -4,11 +4,14 @@ import App from './App.tsx'
 import { BrowserRouter } from "react-router-dom";
 
 import './index.css'
+import { QuizzProvider } from './context/Quizz.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter>
-      <App />
+      <QuizzProvider>
+        <App />
+      </QuizzProvider>
     </BrowserRouter>
   </StrictMode>,
 )

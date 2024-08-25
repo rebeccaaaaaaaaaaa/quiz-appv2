@@ -1,0 +1,29 @@
+{
+  "quiz": {
+    "category": "Geografia",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual é a capital da França?",
+        "options": [
+          "Paris",
+          "Londres",
+          "Madrid",
+          "Bruxelas"
+        ],
+        "correctAnswer": "Paris"
+      },
+      {
+        "id": 2,
+        "question": "Qual é o maior oceano do mundo?",
+        "options": [
+          "Oceano Atlântico",
+          "Oceano Índico",
+          "Oceano Pacífico",
+          "Oceano Ártico"
+        ],
+        "correctAnswer": "Oceano Pacífico"
+      }
+    ]
+  }
+}
