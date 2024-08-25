@@ -26,6 +26,9 @@ interface QuizzContextData {
   getCorrectAnswerToQuestionById: (questionId: number) => string | undefined;
   getScoreByCorrectAwnsers: () => number;
   updateScoreByCorrectAnswer: (selectedAnswer: string, questionId: number) => void;
+  isLastQuestion: boolean;
+  restartGame: () => void;
+  checkIfLastQuestionIsReply: () => boolean;
 }
 
 interface QuizzContextProps {
@@ -39,6 +42,8 @@ export function QuizzProvider({ children }: QuizzContextProps) {
   const [selectCategory, setSelectCategory] = useState<string>('');
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(0);
   const [score, setScore] = useState<number>(0);
+  const [answeredQuestions, setAnsweredQuestions] = useState<Record<number, boolean>>({});
+  const isLastQuestion = currentQuestionIndex === getTotalQuestionsInCategory(selectCategory) - 1;
 
   function getCategories(): string[] {
     if (quizData) {
@@ -48,12 +53,12 @@ export function QuizzProvider({ children }: QuizzContextProps) {
     return [];
   }
 
-  // Função para atualizar a pontuação ao clicar na resposta correta
   function updateScoreByCorrectAnswer(selectedAnswer: string, questionId: number) {
     const correctAnswer = getCorrectAnswerToQuestionById(questionId);
     if (correctAnswer && selectedAnswer === correctAnswer) {
       setScore(prevScore => prevScore + 1); // Incrementa a pontuação se a resposta estiver correta
     }
+    setAnsweredQuestions(prev => ({ ...prev, [questionId]: true })); // Marca a pergunta como respondida
   }
 
   function getScoreByCorrectAwnsers(): number {
@@ -83,6 +88,12 @@ export function QuizzProvider({ children }: QuizzContextProps) {
     return 0;
   }
 
+  function checkIfLastQuestionIsReply(): boolean {
+    const totalQuestions = getTotalQuestionsInCategory(selectCategory);
+    const lastQuestionId = getAllQuestionsToCategory(selectCategory)[totalQuestions - 1]?.id;
+    return !!answeredQuestions[lastQuestionId];
+  }
+
   function getAllAnswersToQuestionById(questionId: number): string[] {
     if (quizData) {
       const question = quizData.questions.find(question => question.id === questionId);
@@ -98,6 +109,14 @@ export function QuizzProvider({ children }: QuizzContextProps) {
       const questions = getAllQuestionsToCategory(selectCategory);
       setCurrentQuestionIndex((prevIndex) => (prevIndex + 1) % questions.length);
     }
+  }
+
+  function restartGame() {
+    setSelectCategory('');
+    setCurrentQuestionIndex(0);
+    setScore(0);
+    setAnsweredQuestions({});
+    window.location.href = '/';
   }
 
   useEffect(() => {
@@ -134,7 +153,10 @@ export function QuizzProvider({ children }: QuizzContextProps) {
       getTotalQuestionsInCategory,
       getCorrectAnswerToQuestionById,
       getScoreByCorrectAwnsers,
-      updateScoreByCorrectAnswer
+      updateScoreByCorrectAnswer,
+      isLastQuestion,
+      restartGame,
+      checkIfLastQuestionIsReply
     }}>
       {children}
     </QuizContext.Provider>

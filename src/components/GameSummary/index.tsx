@@ -8,7 +8,8 @@ import { useQuiz } from "../../hooks/useQuiz";
 import { Link } from "react-router-dom";
 
 export default function GameSummary() {
-  const { nextQuestion } = useQuiz();
+  const { nextQuestion, isLastQuestion, restartGame, checkIfLastQuestionIsReply } = useQuiz();
+  const isLastQuestionReply = checkIfLastQuestionIsReply();
   return (
     <Layout>
       <QuestionPagination />
@@ -16,14 +17,21 @@ export default function GameSummary() {
       <QuizQuestion />
       <QuizAwsers />
       <div className="flex align-middle justify-center gap-7">
-       <QuizButton className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
-          <Link to="/">
-            Restart
-          </Link>
-        </QuizButton>
-        <QuizButton className='bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded' onClick={nextQuestion}>
-          Próxima Pergunta
-        </QuizButton>
+       <QuizButton className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded' buttonText="Reiniciar" onClick={() => restartGame()}/>
+       {
+          isLastQuestion && isLastQuestionReply && (
+            <QuizButton className='bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded'>
+              <Link to="/feedback">
+                Ver Resumo
+              </Link>
+            </QuizButton>
+          )
+        }
+       {
+         !isLastQuestionReply && (
+            <QuizButton className='bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded' buttonText="Proximo" onClick={nextQuestion}/>
+          )
+       }
       </div>
     </Layout>
   )
