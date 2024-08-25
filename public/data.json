@@ -1,9 +1,9 @@
 {
   "quiz": {
-    "category": "Geografia",
     "questions": [
       {
         "id": 1,
+        "category": "Geografia",
         "question": "Qual é a capital da França?",
         "options": [
           "Paris",
@@ -15,6 +15,7 @@
       },
       {
         "id": 2,
+        "category": "Geografia",
         "question": "Qual é o maior oceano do mundo?",
         "options": [
           "Oceano Atlântico",
@@ -23,6 +24,42 @@
           "Oceano Ártico"
         ],
         "correctAnswer": "Oceano Pacífico"
+      },
+      {
+        "id": 3,
+        "category": "História",
+        "question": "Quem foi o primeiro presidente dos Estados Unidos?",
+        "options": [
+          "George Washington",
+          "Thomas Jefferson",
+          "Abraham Lincoln",
+          "John Adams"
+        ],
+        "correctAnswer": "George Washington"
+      },
+      {
+        "id": 4,
+        "category": "Ciência",
+        "question": "Qual é o elemento químico mais abundante no universo?",
+        "options": [
+          "Hélio",
+          "Oxigênio",
+          "Hidrogênio",
+          "Carbono"
+        ],
+        "correctAnswer": "Hidrogênio"
+      },
+      {
+        "id": 5,
+        "category": "Esportes",
+        "question": "Em qual país foram realizados os Jogos Olímpicos de 2016?",
+        "options": [
+          "Brasil",
+          "China",
+          "Japão",
+          "Grécia"
+        ],
+        "correctAnswer": "Brasil"
       }
     ]
   }

@@ -9,7 +9,6 @@ interface Question {
 }
 
 interface QuizData {
-  category: string;
   questions: Question[];
 }
 
@@ -19,6 +18,10 @@ interface QuizzContextData {
   selectCategory: string;
   setSelectCategory: (category: string) => void;
   getCategories: () => string[];
+  getAllQuestionsToCategory: (category: string) => Question[];
+  getAllAnswersToQuestionById: (questionId: number) => string[];
+  currentQuestionIndex: number;
+  nextQuestion: () => void;
 }
 
 interface QuizzContextProps {
@@ -30,18 +33,39 @@ export const QuizContext = createContext<QuizzContextData>({} as QuizzContextDat
 export function QuizzProvider({ children }: QuizzContextProps) {
   const [quizData, setQuizData] = useState<QuizData | null>(null);
   const [selectCategory, setSelectCategory] = useState<string>('');
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(0);
 
   function getCategories(): string[] {
     if (quizData) {
-      // Extrair categorias únicas
-      const categories = quizData.questions
-        .map(question => question.category)
-        .filter((value, index, self) => self.indexOf(value) === index); // Remove duplicatas
-      return categories;
+      const categories = quizData.questions.map(question => question.category);
+      return Array.from(new Set(categories));
     }
     return [];
   }
-  
+
+  function getAllQuestionsToCategory(category: string): Question[] {
+    if (quizData) {
+      return quizData.questions.filter(question => question.category === category);
+    }
+    return [];
+  }
+
+  function getAllAnswersToQuestionById(questionId: number): string[] {
+    if (quizData) {
+      const question = quizData.questions.find(question => question.id === questionId);
+      if (question) {
+        return question.options;
+      }
+    }
+    return [];
+  }
+
+  function nextQuestion() {
+    if (quizData && selectCategory) {
+      const questions = getAllQuestionsToCategory(selectCategory);
+      setCurrentQuestionIndex((prevIndex) => (prevIndex + 1) % questions.length);
+    }
+  }
 
   useEffect(() => {
     const fetchQuizData = async () => {
@@ -64,13 +88,17 @@ export function QuizzProvider({ children }: QuizzContextProps) {
   };
 
   return (
-    <QuizContext.Provider value={{ 
+    <QuizContext.Provider value={{
       quizData,
       getQuestions,
       selectCategory,
       setSelectCategory,
-      getCategories
-     }}>
+      getCategories,
+      getAllQuestionsToCategory,
+      getAllAnswersToQuestionById,
+      currentQuestionIndex,
+      nextQuestion
+    }}>
       {children}
     </QuizContext.Provider>
   );
