@@ -2,19 +2,19 @@ import { useState } from "react";
 import { useQuiz } from "../../hooks/useQuiz";
 
 export default function QuizAnswers() {
-  const { getAllAnswersToQuestionById, currentQuestionIndex, getAllQuestionsToCategory, selectCategory, getCorrectAnswerToQuestionById } = useQuiz();
-  const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null); // Estado para armazenar a resposta selecionada
-  
+  const { getAllAnswersToQuestionById, currentQuestionIndex, getAllQuestionsToCategory, selectCategory, getCorrectAnswerToQuestionById, updateScoreByCorrectAnswer } = useQuiz();
+  const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
+
   const questions = getAllQuestionsToCategory(selectCategory);
   const currentQuestion = questions[currentQuestionIndex];
-  
+
   if (!currentQuestion) return null;
 
   const answers = getAllAnswersToQuestionById(currentQuestion.id);
-  const correctAnswer = getCorrectAnswerToQuestionById(currentQuestion.id); // Obtendo a resposta correta
 
   const handleAnswerClick = (answer: string) => {
-    setSelectedAnswer(answer); // Atualiza o estado com a resposta selecionada
+    setSelectedAnswer(answer); 
+    updateScoreByCorrectAnswer(answer, currentQuestion.id); // Atualiza a pontuação ao clicar
   };
 
   return (
@@ -23,10 +23,10 @@ export default function QuizAnswers() {
         {answers.map((answer, index) => (
           <li
             key={index}
-            onClick={() => handleAnswerClick(answer)} // Clique para selecionar a resposta
+            onClick={() => handleAnswerClick(answer)}
             className={`
               p-4 text-white text-center rounded-lg cursor-pointer transition-colors
-              ${selectedAnswer === answer ? (answer === correctAnswer ? 'bg-green-500' : 'bg-red-500') : 'bg-blue-500'}
+              ${selectedAnswer === answer ? (answer === getCorrectAnswerToQuestionById(currentQuestion.id) ? 'bg-green-500' : 'bg-red-500') : 'bg-blue-500'}
               hover:${selectedAnswer === null ? 'bg-blue-600' : ''}`}
           >
             {answer}

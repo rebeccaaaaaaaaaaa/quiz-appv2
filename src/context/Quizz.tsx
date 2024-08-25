@@ -24,6 +24,8 @@ interface QuizzContextData {
   nextQuestion: () => void;
   getTotalQuestionsInCategory: (category: string) => number;
   getCorrectAnswerToQuestionById: (questionId: number) => string | undefined;
+  getScoreByCorrectAwnsers: () => number;
+  updateScoreByCorrectAnswer: (selectedAnswer: string, questionId: number) => void;
 }
 
 interface QuizzContextProps {
@@ -36,13 +38,26 @@ export function QuizzProvider({ children }: QuizzContextProps) {
   const [quizData, setQuizData] = useState<QuizData | null>(null);
   const [selectCategory, setSelectCategory] = useState<string>('');
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(0);
+  const [score, setScore] = useState<number>(0);
 
- function getCategories(): string[] {
+  function getCategories(): string[] {
     if (quizData) {
       const categories = quizData.questions.map(question => question.category);
       return Array.from(new Set(categories));
     }
     return [];
+  }
+
+  // Função para atualizar a pontuação ao clicar na resposta correta
+  function updateScoreByCorrectAnswer(selectedAnswer: string, questionId: number) {
+    const correctAnswer = getCorrectAnswerToQuestionById(questionId);
+    if (correctAnswer && selectedAnswer === correctAnswer) {
+      setScore(prevScore => prevScore + 1); // Incrementa a pontuação se a resposta estiver correta
+    }
+  }
+
+  function getScoreByCorrectAwnsers(): number {
+    return score;
   }
 
   function getCorrectAnswerToQuestionById(questionId: number): string | undefined {
@@ -61,7 +76,7 @@ export function QuizzProvider({ children }: QuizzContextProps) {
     return [];
   }
 
-  function getTotalQuestionsInCategory (category: string): number {
+  function getTotalQuestionsInCategory(category: string): number {
     if (quizData) {
       return quizData.questions.filter(question => question.category === category).length;
     }
@@ -117,9 +132,12 @@ export function QuizzProvider({ children }: QuizzContextProps) {
       currentQuestionIndex,
       nextQuestion,
       getTotalQuestionsInCategory,
-      getCorrectAnswerToQuestionById
+      getCorrectAnswerToQuestionById,
+      getScoreByCorrectAwnsers,
+      updateScoreByCorrectAnswer
     }}>
       {children}
     </QuizContext.Provider>
   );
 }
+
