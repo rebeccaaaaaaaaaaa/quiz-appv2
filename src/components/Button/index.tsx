@@ -4,11 +4,11 @@ interface QuizButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> 
   children?: React.ReactNode;
 }
 
-export default function QuizButton({ className, buttonText, children, ...props }: QuizButtonProps) {
+export default function QuizButton({ className = '', buttonText, children, ...props }: QuizButtonProps) {
   return (
-      <button className={className} {...props}>
-        {buttonText}
-        {children}
-      </button>
-  )
+    <button className={`rounded-full ${className}`} {...props}>
+      {buttonText}
+      {children}
+    </button>
+  );
 }
