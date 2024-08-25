@@ -23,6 +23,7 @@ interface QuizzContextData {
   currentQuestionIndex: number;
   nextQuestion: () => void;
   getTotalQuestionsInCategory: (category: string) => number;
+  getCorrectAnswerToQuestionById: (questionId: number) => string | undefined;
 }
 
 interface QuizzContextProps {
@@ -36,12 +37,21 @@ export function QuizzProvider({ children }: QuizzContextProps) {
   const [selectCategory, setSelectCategory] = useState<string>('');
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(0);
 
-  function getCategories(): string[] {
+ function getCategories(): string[] {
     if (quizData) {
       const categories = quizData.questions.map(question => question.category);
       return Array.from(new Set(categories));
     }
     return [];
+  }
+
+  function getCorrectAnswerToQuestionById(questionId: number): string | undefined {
+    if (quizData) {
+      const question = quizData.questions.find(question => question.id === questionId);
+      if (question) {
+        return question.correctAnswer;
+      }
+    }
   }
 
   function getAllQuestionsToCategory(category: string): Question[] {
@@ -106,7 +116,8 @@ export function QuizzProvider({ children }: QuizzContextProps) {
       getAllAnswersToQuestionById,
       currentQuestionIndex,
       nextQuestion,
-      getTotalQuestionsInCategory
+      getTotalQuestionsInCategory,
+      getCorrectAnswerToQuestionById
     }}>
       {children}
     </QuizContext.Provider>
