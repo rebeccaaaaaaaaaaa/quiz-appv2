@@ -22,7 +22,7 @@ export default function QuizAnswers() {
 
   return (
     <div className="flex justify-center items-center">
-      <ul className="p-5 w-full flex flex-col gap-4">
+      <ul className="p-2 w-full flex flex-col gap-4">
         {answers.map((answer, index) => (
           <li
             key={index}
