@@ -1,12 +1,13 @@
-body{
-    background-color: #f0f0f0;
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    body{
+        background-color: #f0f0f0;
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        @apply bg-hero-pattern bg-cover bg-center;
 
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }

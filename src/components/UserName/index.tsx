@@ -5,6 +5,7 @@ export default function QuizUserName() {
   return (
     <div className="p-5 max-w-[400px] bg-white border-2 border-gray-300 rounded-lg shadow-md">
       <input
+        autoFocus
         type="text"
         className="w-full p-3 bg-gray-100 border-2 border-gray-300 rounded-lg text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
         placeholder="Digite seu nome"

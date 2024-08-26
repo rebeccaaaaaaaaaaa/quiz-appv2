@@ -9,7 +9,7 @@ function App() {
     <Layout>
       <QuizLogo src={Logo} alt="Alura Quiz" className='w-96'/>
       <Link to="/player">
-        <QuizButton className='bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded w-full' buttonText='Iniciar jogo'/>
+        <QuizButton className='bg-green-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded w-full' buttonText='Iniciar jogo'/>
       </Link>
     </Layout>
   )
