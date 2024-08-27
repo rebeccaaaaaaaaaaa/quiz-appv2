@@ -32,7 +32,7 @@ export default function QuizAnswers() {
               ${selectedAnswer === answer ? (answer === getCorrectAnswerToQuestionById(currentQuestion.id) ? 'bg-green-500' : 'bg-red-500') : 'bg-blue-500'}
               hover:${!isAnswered ? 'bg-blue-600' : ''} // Desabilita hover se a pergunta já foi respondida
             `}
-            style={{ pointerEvents: isAnswered ? 'none' : 'auto' }} // Desabilita cliques se a pergunta já foi respondida
+            style={{ pointerEvents: isAnswered ? 'none' : 'auto' }}
           >
             {answer}
           </li>

@@ -1519,6 +1519,13 @@
         "question": "Qual é o nome do país que tem a maior quantidade de línguas oficiais?",
         "options": ["Indonésia", "Índia", "Suíça", "Canadá"],
         "correctAnswer": "Índia"
+      },
+      {
+        "id": 212,
+        "category": "Teste",
+        "question": "Essa eé uma pergunta de teste?",
+        "options": ["Sim", "Não", "Talvez", "Não Sei"],
+        "correctAnswer": "Sim"
       }
     ]
   }

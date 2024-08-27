@@ -3,7 +3,7 @@ import { useQuiz } from "../../hooks/useQuiz";
 import QuizButton from "../Button";
 
 export default function QuizFeedback() {
-  const { getScoreByCorrectAwnsers } = useQuiz();
+  const { getScoreByCorrectAwnsers, restartGame } = useQuiz();
   return (
     <div className="p-5 max-w-[400px] bg-white border-2 border-gray-300 rounded-lg shadow-md text-center">
       <h1 className="text-2xl font-bold text-gray-800 mb-4">Resultado</h1>
@@ -11,13 +11,16 @@ export default function QuizFeedback() {
         Você acertou {getScoreByCorrectAwnsers()} perguntas!
       </p>
       <p className="text-lg text-gray-600">
-        {getScoreByCorrectAwnsers() > 5 ? 'Parabéns!' : 'Você é muito ruim!'}
+        {getScoreByCorrectAwnsers() > 5 ? "Parabéns!" : "Tente novamente!"}
       </p>
-      <QuizButton className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
-          <Link to="/">
-            Restart
-          </Link>
+      <Link to="/">
+        <QuizButton
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          onClick={restartGame}
+        >
+          Restart
         </QuizButton>
+      </Link>
     </div>
   );
 }
