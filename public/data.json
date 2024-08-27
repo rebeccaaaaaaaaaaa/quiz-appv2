@@ -3,1529 +3,1112 @@
     "questions": [
       {
         "id": 1,
-        "category": "Geografia",
-        "question": "Qual é a capital da França?",
-        "options": ["Paris", "Londres", "Madrid", "Bruxelas"],
-        "correctAnswer": "Paris"
+        "category": "Young Sheldon",
+        "question": "Qual foi a primeira palavra que Sheldon Cooper falou na série?",
+        "options": ["Quark", "Átomo", "Relatividade", "Cálculo"],
+        "correctAnswer": "Quark"
       },
       {
         "id": 2,
-        "category": "Geografia",
-        "question": "Qual é o maior oceano do mundo?",
-        "options": ["Oceano Atlântico", "Oceano Índico", "Oceano Pacífico", "Oceano Ártico"],
-        "correctAnswer": "Oceano Pacífico"
+        "category": "Young Sheldon",
+        "question": "Qual é o nome do livro que Sheldon lê para entender melhor as teorias de Einstein?",
+        "options": [
+          "Relatividade: A Teoria",
+          "The Meaning of Relativity",
+          "A Fórmula da Relatividade",
+          "Time and Space"
+        ],
+        "correctAnswer": "The Meaning of Relativity"
       },
       {
         "id": 3,
-        "category": "Geografia",
-        "question": "Qual é o rio mais longo do mundo?",
-        "options": ["Rio Nilo", "Rio Amazonas", "Rio Yangtze", "Rio Mississippi"],
-        "correctAnswer": "Rio Nilo"
+        "category": "Young Sheldon",
+        "question": "Qual foi a primeira invenção científica que Sheldon tentou patentear?",
+        "options": [
+          "Sinal de luz intermitente",
+          "Reator nuclear",
+          "Sistema de segurança com rádio",
+          "Dispositivo de ressonância magnética"
+        ],
+        "correctAnswer": "Sinal de luz intermitente"
       },
       {
         "id": 4,
-        "category": "Geografia",
-        "question": "Em qual continente fica o deserto do Saara?",
-        "options": ["Ásia", "África", "América do Sul", "Austrália"],
-        "correctAnswer": "África"
+        "category": "Young Sheldon",
+        "question": "Em qual episódio Sheldon descobriu a falha no teste de QI que mudou a percepção dele sobre seu intelecto?",
+        "options": [
+          "Temporada 2, Episódio 10",
+          "Temporada 1, Episódio 12",
+          "Temporada 3, Episódio 5",
+          "Temporada 4, Episódio 7"
+        ],
+        "correctAnswer": "Temporada 1, Episódio 12"
       },
       {
         "id": 5,
-        "category": "Geografia",
-        "question": "Qual é a maior ilha do mundo?",
-        "options": ["Groenlândia", "Madagascar", "Nova Guiné", "Sumatra"],
-        "correctAnswer": "Groenlândia"
+        "category": "Young Sheldon",
+        "question": "Qual instrumento musical Sheldon tenta aprender a tocar por curiosidade científica?",
+        "options": ["Violino", "Flauta", "Piano", "Trompete"],
+        "correctAnswer": "Piano"
       },
       {
         "id": 6,
-        "category": "Geografia",
-        "question": "Qual é o menor país do mundo em área?",
-        "options": ["Mônaco", "Vaticano", "Nauru", "Malta"],
-        "correctAnswer": "Vaticano"
+        "category": "Young Sheldon",
+        "question": "Qual foi o tema da palestra de Sheldon na faculdade durante o segundo semestre do primeiro ano?",
+        "options": [
+          "Matemática Computacional",
+          "Mecânica Quântica",
+          "Física Nuclear",
+          "Astrofísica"
+        ],
+        "correctAnswer": "Mecânica Quântica"
       },
       {
         "id": 7,
-        "category": "Geografia",
-        "question": "Qual é o continente mais populoso?",
-        "options": ["Ásia", "África", "Europa", "América do Norte"],
-        "correctAnswer": "Ásia"
+        "category": "Young Sheldon",
+        "question": "Qual a marca e modelo do primeiro computador que Sheldon possui?",
+        "options": ["Tandy 1000 SL", "Commodore 64", "Apple II", "IBM PC XT"],
+        "correctAnswer": "Tandy 1000 SL"
       },
       {
         "id": 8,
-        "category": "Geografia",
-        "question": "Qual é o ponto mais alto da Terra?",
-        "options": ["Monte Everest", "Monte Kilimanjaro", "Monte McKinley", "Mont Blanc"],
-        "correctAnswer": "Monte Everest"
+        "category": "Young Sheldon",
+        "question": "Em qual episódio Sheldon aprende sobre o conceito de entropia e se torna obcecado pela Segunda Lei da Termodinâmica?",
+        "options": [
+          "Temporada 2, Episódio 3",
+          "Temporada 3, Episódio 8",
+          "Temporada 1, Episódio 5",
+          "Temporada 4, Episódio 2"
+        ],
+        "correctAnswer": "Temporada 2, Episódio 3"
       },
       {
         "id": 9,
-        "category": "Geografia",
-        "question": "Qual é o maior deserto do mundo?",
-        "options": ["Deserto do Saara", "Deserto da Antártida", "Deserto de Gobi", "Deserto de Kalahari"],
-        "correctAnswer": "Deserto da Antártida"
+        "category": "Young Sheldon",
+        "question": "Sheldon construiu uma réplica funcional de qual famoso experimento científico na garagem da sua casa?",
+        "options": [
+          "Experimento de Young sobre a interferência da luz",
+          "O Pêndulo de Foucault",
+          "O Gerador de Van de Graaff",
+          "Experiência de Cavendish"
+        ],
+        "correctAnswer": "Experimento de Young sobre a interferência da luz"
       },
       {
         "id": 10,
-        "category": "Geografia",
-        "question": "Qual país tem o maior número de fusos horários?",
-        "options": ["Rússia", "Estados Unidos", "China", "França"],
-        "correctAnswer": "França"
+        "category": "Young Sheldon",
+        "question": "Qual é o nome do cientista de ficção científica favorito de Sheldon?",
+        "options": [
+          "Isaac Asimov",
+          "Arthur C. Clarke",
+          "Carl Sagan",
+          "Stephen Hawking"
+        ],
+        "correctAnswer": "Isaac Asimov"
       },
       {
         "id": 11,
-        "category": "Geografia",
-        "question": "Em qual continente fica o Monte Kilimanjaro?",
-        "options": ["África", "Ásia", "América do Sul", "Europa"],
-        "correctAnswer": "África"
+        "category": "Young Sheldon",
+        "question": "Que técnica matemática Sheldon usa para resolver um problema de física avançada em uma aula universitária?",
+        "options": [
+          "Análise de Fourier",
+          "Transformada de Laplace",
+          "Cálculo Vetorial",
+          "Equações Diferenciais Parciais"
+        ],
+        "correctAnswer": "Análise de Fourier"
       },
       {
         "id": 12,
-        "category": "Geografia",
-        "question": "Qual país tem a maior população do mundo?",
-        "options": ["Índia", "Estados Unidos", "Brasil", "China"],
-        "correctAnswer": "China"
+        "category": "Young Sheldon",
+        "question": "Quem inspirou Sheldon a estudar o modelo de universo em constante expansão?",
+        "options": [
+          "Georges Lemaître",
+          "Edwin Hubble",
+          "Albert Einstein",
+          "Stephen Hawking"
+        ],
+        "correctAnswer": "Edwin Hubble"
       },
       {
         "id": 13,
-        "category": "Geografia",
-        "question": "Qual é o país mais extenso do mundo?",
-        "options": ["Estados Unidos", "Canadá", "China", "Rússia"],
-        "correctAnswer": "Rússia"
+        "category": "Young Sheldon",
+        "question": "Que revista científica Sheldon lê aos 10 anos para se atualizar sobre novas descobertas?",
+        "options": [
+          "Scientific American",
+          "Nature",
+          "The Physics Review",
+          "New Scientist"
+        ],
+        "correctAnswer": "Scientific American"
       },
       {
         "id": 14,
-        "category": "Geografia",
-        "question": "Qual é o menor continente do mundo?",
-        "options": ["Europa", "Antártica", "Oceania", "África"],
-        "correctAnswer": "Oceania"
+        "category": "Young Sheldon",
+        "question": "Qual foi a razão pela qual Sheldon decidiu investigar teorias matemáticas sobre números primos?",
+        "options": [
+          "Por fascínio com a simetria",
+          "Por acreditar que eles escondem segredos sobre o universo",
+          "Por uma competição de matemática",
+          "Para impressionar um professor"
+        ],
+        "correctAnswer": "Por acreditar que eles escondem segredos sobre o universo"
       },
       {
         "id": 15,
-        "category": "Geografia",
-        "question": "Qual rio atravessa a cidade de Londres?",
-        "options": ["Tâmisa", "Sena", "Danúbio", "Elba"],
-        "correctAnswer": "Tâmisa"
+        "category": "Young Sheldon",
+        "question": "Sheldon tentou recriar um experimento famoso usando qual objeto do cotidiano?",
+        "options": [
+          "Pilha de batata",
+          "Bicicleta",
+          "Relógio de pêndulo",
+          "Ímã de geladeira"
+        ],
+        "correctAnswer": "Relógio de pêndulo"
       },
       {
         "id": 16,
-        "category": "Geografia",
-        "question": "Qual é a capital do Canadá?",
-        "options": ["Ottawa", "Toronto", "Vancouver", "Montreal"],
-        "correctAnswer": "Ottawa"
+        "category": "Young Sheldon",
+        "question": "Qual é o super-herói favorito de Sheldon na infância?",
+        "options": ["The Flash", "Superman", "Homem-Aranha", "Batman"],
+        "correctAnswer": "The Flash"
       },
       {
         "id": 17,
-        "category": "Geografia",
-        "question": "Qual é a maior cidade da América do Sul?",
-        "options": ["São Paulo", "Buenos Aires", "Rio de Janeiro", "Lima"],
-        "correctAnswer": "São Paulo"
+        "category": "Young Sheldon",
+        "question": "Qual foi a disciplina que Sheldon considerou desnecessária, mas acabou se interessando mais tarde?",
+        "options": [
+          "Educação Física",
+          "Artes",
+          "Sociologia",
+          "Economia Doméstica"
+        ],
+        "correctAnswer": "Economia Doméstica"
       },
       {
         "id": 18,
-        "category": "Geografia",
-        "question": "Qual é o único continente que não possui países?",
-        "options": ["Oceania", "África", "Antártica", "Europa"],
-        "correctAnswer": "Antártica"
+        "category": "Young Sheldon",
+        "question": "Qual famosa teoria quântica Sheldon tenta refutar em um episódio?",
+        "options": [
+          "Gato de Schrödinger",
+          "Entrelaçamento Quântico",
+          "Multiverso",
+          "Teorema de Bell"
+        ],
+        "correctAnswer": "Gato de Schrödinger"
       },
       {
         "id": 19,
-        "category": "Geografia",
-        "question": "Qual é o nome da montanha mais alta da América do Norte?",
-        "options": ["Monte Denali", "Monte Logan", "Monte McKinley", "Pico de Orizaba"],
-        "correctAnswer": "Monte Denali"
+        "category": "Young Sheldon",
+        "question": "Em qual episódio Sheldon lida com seu primeiro dilema moral sobre roubar uma ideia científica?",
+        "options": [
+          "Temporada 2, Episódio 6",
+          "Temporada 3, Episódio 4",
+          "Temporada 1, Episódio 9",
+          "Temporada 4, Episódio 1"
+        ],
+        "correctAnswer": "Temporada 2, Episódio 6"
       },
       {
         "id": 20,
-        "category": "Geografia",
-        "question": "Qual oceano banha a costa oeste dos Estados Unidos?",
-        "options": ["Oceano Atlântico", "Oceano Pacífico", "Oceano Índico", "Oceano Ártico"],
-        "correctAnswer": "Oceano Pacífico"
-      },
-      {
-        "id": 21,
-        "category": "Geografia",
-        "question": "Qual país faz fronteira com o maior número de países?",
-        "options": ["Rússia", "China", "Brasil", "França"],
-        "correctAnswer": "China"
-      },
-      {
-        "id": 22,
-        "category": "Geografia",
-        "question": "Qual país é famoso por suas tulipas e moinhos de vento?",
-        "options": ["Bélgica", "Alemanha", "Holanda", "Dinamarca"],
-        "correctAnswer": "Holanda"
-      },
-      {
-        "id": 23,
-        "category": "Geografia",
-        "question": "Qual é o maior país da América do Sul em área?",
-        "options": ["Argentina", "Brasil", "Peru", "Chile"],
-        "correctAnswer": "Brasil"
-      },
-      {
-        "id": 24,
-        "category": "Geografia",
-        "question": "Qual país tem o maior número de lagos naturais do mundo?",
-        "options": ["Estados Unidos", "Finlândia", "Canadá", "Noruega"],
-        "correctAnswer": "Canadá"
-      },
-      {
-        "id": 25,
-        "category": "Geografia",
-        "question": "Qual é a capital do Japão?",
-        "options": ["Osaka", "Kyoto", "Nagoya", "Tóquio"],
-        "correctAnswer": "Tóquio"
-      },
-      {
-        "id": 26,
-        "category": "Geografia",
-        "question": "Qual é o maior arquipélago do mundo?",
-        "options": ["Indonésia", "Filipinas", "Maldivas", "Havaí"],
-        "correctAnswer": "Indonésia"
-      },
-      {
-        "id": 27,
-        "category": "Geografia",
-        "question": "Em qual continente fica o Deserto de Gobi?",
-        "options": ["África", "América do Sul", "Ásia", "Oceania"],
-        "correctAnswer": "Ásia"
-      },
-      {
-        "id": 28,
-        "category": "Geografia",
-        "question": "Qual é a capital da Austrália?",
-        "options": ["Sydney", "Melbourne", "Brisbane", "Camberra"],
-        "correctAnswer": "Camberra"
-      },
-      {
-        "id": 29,
-        "category": "Geografia",
-        "question": "Qual é a maior floresta tropical do mundo?",
-        "options": ["Floresta Amazônica", "Floresta do Congo", "Floresta de Bornéu", "Floresta de Daintree"],
-        "correctAnswer": "Floresta Amazônica"
-      },
-      {
-        "id": 30,
-        "category": "Geografia",
-        "question": "Em qual país fica a Cordilheira dos Andes?",
-        "options": ["Chile", "Brasil", "Argentina", "Peru"],
-        "correctAnswer": "Chile"
-      },
-      {
-        "id": 31,
-        "category": "Geografia",
-        "question": "Qual é a capital da Índia?",
-        "options": ["Mumbai", "Nova Délhi", "Bangalore", "Chennai"],
-        "correctAnswer": "Nova Délhi"
-      },
-      {
-        "id": 32,
-        "category": "Geografia",
-        "question": "Qual é a montanha mais alta da Europa?",
-        "options": ["Mont Blanc", "Monte Elbrus", "Monte Matterhorn", "Monte Kosciuszko"],
-        "correctAnswer": "Monte Elbrus"
-      },
-      {
-        "id": 33,
-        "category": "Geografia",
-        "question": "Qual país é o maior produtor de café do mundo?",
-        "options": ["Colômbia", "Vietnã", "Etiópia", "Brasil"],
-        "correctAnswer": "Brasil"
-      },
-      {
-        "id": 34,
-        "category": "Geografia",
-        "question": "Qual país tem o maior número de vulcões ativos?",
-        "options": ["Indonésia", "Japão", "Islândia", "Chile"],
-        "correctAnswer": "Indonésia"
-      },
-      {
-        "id": 35,
-        "category": "Geografia",
-        "question": "Qual é a capital da Argentina?",
-        "options": ["Buenos Aires", "Rosário", "Córdoba", "Mendoza"],
-        "correctAnswer": "Buenos Aires"
-      },
-      {
-        "id": 36,
-        "category": "Geografia",
-        "question": "Em qual país fica o Rio Ganges?",
-        "options": ["China", "Índia", "Nepal", "Paquistão"],
-        "correctAnswer": "Índia"
-      },
-      {
-        "id": 37,
-        "category": "Geografia",
-        "question": "Qual é o maior país da África em área?",
-        "options": ["Egito", "Nigéria", "Argélia", "África do Sul"],
-        "correctAnswer": "Argélia"
-      },
-      {
-        "id": 38,
-        "category": "Geografia",
-        "question": "Qual é o maior país da Oceania?",
-        "options": ["Nova Zelândia", "Papua-Nova Guiné", "Austrália", "Fiji"],
-        "correctAnswer": "Austrália"
-      },
-      {
-        "id": 39,
-        "category": "Geografia",
-        "question": "Qual é a montanha mais alta da África?",
-        "options": ["Monte Kilimanjaro", "Monte Quênia", "Monte Atlas", "Monte Rwenzori"],
-        "correctAnswer": "Monte Kilimanjaro"
-      },
-      {
-        "id": 40,
-        "category": "Geografia",
-        "question": "Qual é a maior cidade do Canadá?",
-        "options": ["Toronto", "Montreal", "Vancouver", "Calgary"],
-        "correctAnswer": "Toronto"
-      },
-      {
-        "id": 41,
-        "category": "Geografia",
-        "question": "Qual país é famoso por suas pirâmides antigas?",
-        "options": ["México", "Egito", "Grécia", "Índia"],
-        "correctAnswer": "Egito"
-      },
-      {
-        "id": 42,
-        "category": "Geografia",
-        "question": "Em qual país fica a Muralha da China?",
-        "options": ["Japão", "Coreia do Sul", "China", "Mongólia"],
-        "correctAnswer": "China"
-      },
-      {
-        "id": 43,
-        "category": "Geografia",
-        "question": "Qual é o maior rio da América do Norte?",
-        "options": ["Rio Mississipi", "Rio Missouri", "Rio Colorado", "Rio Yukon"],
-        "correctAnswer": "Rio Mississipi"
-      },
-      {
-        "id": 44,
-        "category": "Geografia",
-        "question": "Qual país é famoso por seus castelos medievais?",
-        "options": ["França", "Inglaterra", "Escócia", "Alemanha"],
-        "correctAnswer": "Escócia"
-      },
-      {
-        "id": 45,
-        "category": "Geografia",
-        "question": "Qual é a capital da Alemanha?",
-        "options": ["Berlim", "Hamburgo", "Frankfurt", "Munique"],
-        "correctAnswer": "Berlim"
-      },
-      {
-        "id": 46,
-        "category": "Geografia",
-        "question": "Qual é a menor capital do mundo em população?",
-        "options": ["Cidade do Vaticano", "Funafuti", "Vaduz", "Thimphu"],
-        "correctAnswer": "Funafuti"
-      },
-      {
-        "id": 47,
-        "category": "Geografia",
-        "question": "Em qual país fica o famoso Taj Mahal?",
-        "options": ["Índia", "Bangladesh", "Nepal", "Paquistão"],
-        "correctAnswer": "Índia"
-      },
-      {
-        "id": 48,
-        "category": "Geografia",
-        "question": "Qual é a maior cordilheira do mundo?",
-        "options": ["Himalaias", "Andes", "Rocallosas", "Alpes"],
-        "correctAnswer": "Himalaias"
-      },
-      {
-        "id": 49,
-        "category": "Geografia",
-        "question": "Qual país é conhecido como a 'terra do sol nascente'?",
-        "options": ["Coreia do Sul", "China", "Japão", "Filipinas"],
-        "correctAnswer": "Japão"
-      },
-      {
-        "id": 50,
-        "category": "Geografia",
-        "question": "Qual é o único país que ocupa todo um continente?",
-        "options": ["Rússia", "Canadá", "Austrália", "Brasil"],
-        "correctAnswer": "Austrália"
-      },
-      {
-        "id": 51,
-        "category": "Tecnologia",
-        "question": "Qual é o sistema operacional de código aberto mais popular?",
-        "options": ["Windows", "Linux", "macOS", "Android"],
-        "correctAnswer": "Linux"
-      },
-      {
-        "id": 52,
-        "category": "Tecnologia",
-        "question": "Qual linguagem de programação foi desenvolvida pela Google?",
-        "options": ["Python", "Java", "Go", "Ruby"],
-        "correctAnswer": "Go"
-      },
-      {
-        "id": 53,
-        "category": "Tecnologia",
-        "question": "Qual tecnologia é usada para a criação de interfaces reativas na web?",
-        "options": ["Bootstrap", "React", "Angular", "jQuery"],
-        "correctAnswer": "React"
-      },
-      {
-        "id": 54,
-        "category": "Tecnologia",
-        "question": "Qual foi o primeiro navegador da web gráfico?",
-        "options": ["Netscape Navigator", "Mosaic", "Internet Explorer", "Safari"],
-        "correctAnswer": "Mosaic"
-      },
-      {
-        "id": 55,
-        "category": "Tecnologia",
-        "question": "Qual é o nome da arquitetura de processador desenvolvida pela ARM Holdings?",
-        "options": ["x86", "ARM", "RISC", "CISC"],
-        "correctAnswer": "ARM"
-      },
-      {
-        "id": 51,
-        "category": "Tecnologia",
-        "question": "Qual é o sistema operacional de código aberto mais popular?",
-        "options": ["Windows", "Linux", "macOS", "Android"],
-        "correctAnswer": "Linux"
-      },
-      {
-        "id": 52,
-        "category": "Tecnologia",
-        "question": "Qual linguagem de programação foi desenvolvida pela Google?",
-        "options": ["Python", "Java", "Go", "Ruby"],
-        "correctAnswer": "Go"
-      },
-      {
-        "id": 53,
-        "category": "Tecnologia",
-        "question": "Qual tecnologia é usada para a criação de interfaces reativas na web?",
-        "options": ["Bootstrap", "React", "Angular", "jQuery"],
-        "correctAnswer": "React"
-      },
-      {
-        "id": 54,
-        "category": "Tecnologia",
-        "question": "Qual foi o primeiro navegador da web gráfico?",
-        "options": ["Netscape Navigator", "Mosaic", "Internet Explorer", "Safari"],
-        "correctAnswer": "Mosaic"
-      },
-      {
-        "id": 55,
-        "category": "Tecnologia",
-        "question": "Qual é o nome da arquitetura de processador desenvolvida pela ARM Holdings?",
-        "options": ["x86", "ARM", "RISC", "CISC"],
-        "correctAnswer": "ARM"
-      },
-      {
-        "id": 56,
-        "category": "Tecnologia",
-        "question": "Qual é o principal protocolo utilizado para comunicação na web?",
-        "options": ["FTP", "HTTP", "SMTP", "POP3"],
-        "correctAnswer": "HTTP"
-      },
-      {
-        "id": 57,
-        "category": "Tecnologia",
-        "question": "Qual linguagem é conhecida por ser a base da web?",
-        "options": ["Java", "JavaScript", "Python", "C#"],
-        "correctAnswer": "JavaScript"
-      },
-      {
-        "id": 58,
-        "category": "Tecnologia",
-        "question": "Qual empresa desenvolveu o processador Snapdragon?",
-        "options": ["Intel", "AMD", "Qualcomm", "NVIDIA"],
-        "correctAnswer": "Qualcomm"
-      },
-      {
-        "id": 59,
-        "category": "Tecnologia",
-        "question": "Qual é o nome do software livre que substitui o Microsoft Office?",
-        "options": ["LibreOffice", "OpenOffice", "Google Docs", "WPS Office"],
-        "correctAnswer": "LibreOffice"
-      },
-      {
-        "id": 60,
-        "category": "Tecnologia",
-        "question": "Qual é a linguagem de programação usada para scripts do lado do servidor no Node.js?",
-        "options": ["Ruby", "Python", "JavaScript", "PHP"],
-        "correctAnswer": "JavaScript"
-      },
-      {
-        "id": 61,
-        "category": "Tecnologia",
-        "question": "Qual é a principal função de um firewall?",
-        "options": ["Armazenar dados", "Controlar o tráfego de rede", "Gerenciar banco de dados", "Proteger contra vírus"],
-        "correctAnswer": "Controlar o tráfego de rede"
-      },
-      {
-        "id": 62,
-        "category": "Tecnologia",
-        "question": "Qual é o nome do dispositivo que traduz sinais digitais em sinais analógicos e vice-versa?",
-        "options": ["Modem", "Roteador", "Switch", "Hub"],
-        "correctAnswer": "Modem"
-      },
-      {
-        "id": 63,
-        "category": "Tecnologia",
-        "question": "Qual é a principal vantagem do armazenamento em nuvem?",
-        "options": ["Armazenamento ilimitado", "Acesso remoto", "Baixo custo", "Proteção contra perda de dados"],
-        "correctAnswer": "Acesso remoto"
-      },
-      {
-        "id": 64,
-        "category": "Tecnologia",
-        "question": "Qual é o protocolo usado para enviar emails?",
-        "options": ["HTTP", "SMTP", "FTP", "IMAP"],
-        "correctAnswer": "SMTP"
-      },
-      {
-        "id": 65,
-        "category": "Tecnologia",
-        "question": "Qual é o nome do sistema operacional usado em dispositivos móveis da Apple?",
-        "options": ["iOS", "Android", "Windows Mobile", "Ubuntu Touch"],
-        "correctAnswer": "iOS"
-      },
-      {
-        "id": 66,
-        "category": "Tecnologia",
-        "question": "Qual é o tipo de memória volátil usada em computadores para armazenar dados temporários?",
-        "options": ["RAM", "ROM", "Cache", "SSD"],
-        "correctAnswer": "RAM"
-      },
-      {
-        "id": 67,
-        "category": "Tecnologia",
-        "question": "Qual empresa é conhecida por desenvolver a arquitetura de processador PowerPC?",
-        "options": ["IBM", "Intel", "AMD", "ARM"],
-        "correctAnswer": "IBM"
-      },
-      {
-        "id": 68,
-        "category": "Tecnologia",
-        "question": "Qual é o nome da linguagem de marcação usada para criar páginas web?",
-        "options": ["HTML", "CSS", "JavaScript", "XML"],
-        "correctAnswer": "HTML"
-      },
-      {
-        "id": 69,
-        "category": "Tecnologia",
-        "question": "Qual é a principal função de um sistema de gerenciamento de banco de dados (SGBD)?",
-        "options": ["Gerenciar arquivos", "Gerenciar redes", "Gerenciar dados", "Gerenciar segurança"],
-        "correctAnswer": "Gerenciar dados"
-      },
-      {
-        "id": 70,
-        "category": "Tecnologia",
-        "question": "Qual tecnologia é usada para criar contratos inteligentes e aplicações descentralizadas?",
-        "options": ["Blockchain", "Cloud Computing", "Edge Computing", "IoT"],
-        "correctAnswer": "Blockchain"
-      },
-      {
-        "id": 71,
-        "category": "Tecnologia",
-        "question": "Qual é o protocolo usado para acessar e gerenciar diretórios de rede?",
-        "options": ["FTP", "LDAP", "HTTP", "SNMP"],
-        "correctAnswer": "LDAP"
-      },
-      {
-        "id": 72,
-        "category": "Tecnologia",
-        "question": "Qual é o nome do padrão de comunicação sem fio usado em redes locais de curto alcance?",
-        "options": ["Wi-Fi", "Bluetooth", "NFC", "Zigbee"],
-        "correctAnswer": "Bluetooth"
-      },
-      {
-        "id": 73,
-        "category": "Tecnologia",
-        "question": "Qual é a principal função de um roteador?",
-        "options": ["Conectar dispositivos a uma rede local", "Armazenar dados", "Proteger a rede", "Gerenciar emails"],
-        "correctAnswer": "Conectar dispositivos a uma rede local"
-      },
-      {
-        "id": 74,
-        "category": "Tecnologia",
-        "question": "Qual é a linguagem de programação usada para desenvolvimento de jogos na plataforma Unity?",
-        "options": ["C#", "C++", "Java", "Python"],
-        "correctAnswer": "C#"
-      },
-      {
-        "id": 75,
-        "category": "Tecnologia",
-        "question": "Qual é o nome do processo de garantir que um software funcione conforme o esperado?",
-        "options": ["Debugging", "Testing", "Deployment", "Design"],
-        "correctAnswer": "Testing"
-      },
-      {
-        "id": 76,
-        "category": "Tecnologia",
-        "question": "Qual é a principal diferença entre RAM e ROM?",
-        "options": ["RAM é volátil e ROM é não volátil", "RAM é mais lenta que ROM", "ROM é usada para dados temporários", "RAM é usada para armazenamento permanente"],
-        "correctAnswer": "RAM é volátil e ROM é não volátil"
-      },
-      {
-        "id": 77,
-        "category": "Tecnologia",
-        "question": "Qual é o nome da técnica de criptografia que usa uma chave para codificar e decodificar dados?",
-        "options": ["Criptografia simétrica", "Criptografia assimétrica", "Hashing", "Esteganografia"],
-        "correctAnswer": "Criptografia simétrica"
-      },
-      {
-        "id": 78,
-        "category": "Tecnologia",
-        "question": "Qual tecnologia é usada para criar uma rede privada virtual?",
-        "options": ["VPN", "VLAN", "VoIP", "MPLS"],
-        "correctAnswer": "VPN"
-      },
-      {
-        "id": 79,
-        "category": "Tecnologia",
-        "question": "Qual é o nome do framework JavaScript para criação de aplicativos de página única?",
-        "options": ["Angular", "Django", "Ruby on Rails", "Laravel"],
-        "correctAnswer": "Angular"
-      },
-      {
-        "id": 80,
-        "category": "Tecnologia",
-        "question": "Qual é o nome da ferramenta de versionamento de código mais popular?",
-        "options": ["Git", "Subversion", "Mercurial", "Perforce"],
-        "correctAnswer": "Git"
-      },
-      {
-        "id": 81,
-        "category": "Tecnologia",
-        "question": "Qual é o nome do padrão de comunicação usado para transmissão de dados em alta velocidade em redes locais?",
-        "options": ["Ethernet", "Wi-Fi", "Bluetooth", "DSL"],
-        "correctAnswer": "Ethernet"
-      },
-      {
-        "id": 82,
-        "category": "Tecnologia",
-        "question": "Qual é o nome do processo de conversão de código fonte em código de máquina executável?",
-        "options": ["Compilação", "Interpretação", "Execução", "Linkagem"],
-        "correctAnswer": "Compilação"
-      },
-      {
-        "id": 83,
-        "category": "Tecnologia",
-        "question": "Qual é o nome da ferramenta de automação de builds e testes mais utilizada?",
-        "options": ["Jenkins", "Travis CI", "CircleCI", "GitHub Actions"],
-        "correctAnswer": "Jenkins"
-      },
-      {
-        "id": 84,
-        "category": "Tecnologia",
-        "question": "Qual é o nome do protocolo de rede usado para transferência de arquivos entre servidores e clientes?",
-        "options": ["HTTP", "FTP", "SMTP", "SNMP"],
-        "correctAnswer": "FTP"
-      },
-      {
-        "id": 85,
-        "category": "Tecnologia",
-        "question": "Qual é o nome do banco de dados NoSQL usado para armazenar dados em formato de documentos JSON?",
-        "options": ["MongoDB", "MySQL", "PostgreSQL", "SQLite"],
-        "correctAnswer": "MongoDB"
-      },
-      {
-        "id": 86,
-        "category": "Tecnologia",
-        "question": "Qual é o nome da ferramenta de containerização que facilita a criação e gerenciamento de containers?",
-        "options": ["Docker", "Kubernetes", "Vagrant", "VirtualBox"],
-        "correctAnswer": "Docker"
-      },
-      {
-        "id": 87,
-        "category": "Tecnologia",
-        "question": "Qual é o nome da linguagem de programação que é a base da maioria dos aplicativos Android?",
-        "options": ["Kotlin", "Java", "Swift", "Objective-C"],
-        "correctAnswer": "Java"
-      },
-      {
-        "id": 88,
-        "category": "Tecnologia",
-        "question": "Qual é o nome da técnica de análise de dados que usa algoritmos para encontrar padrões e fazer previsões?",
-        "options": ["Machine Learning", "Data Mining", "Statistical Analysis", "Predictive Analytics"],
-        "correctAnswer": "Machine Learning"
-      },
-      {
-        "id": 89,
-        "category": "Tecnologia",
-        "question": "Qual é o nome do protocolo usado para comunicação segura na web?",
-        "options": ["HTTP", "HTTPS", "FTP", "SFTP"],
-        "correctAnswer": "HTTPS"
-      },
-      {
-        "id": 90,
-        "category": "Tecnologia",
-        "question": "Qual é o nome da plataforma de desenvolvimento open-source da Google para sistemas de gerenciamento de contêineres?",
-        "options": ["Kubernetes", "Docker", "OpenShift", "Mesos"],
-        "correctAnswer": "Kubernetes"
-      },
-      {
-        "id": 91,
-        "category": "Tecnologia",
-        "question": "Qual é o nome do serviço da Amazon que fornece armazenamento de objetos escalável na nuvem?",
-        "options": ["Amazon S3", "Amazon EC2", "Amazon RDS", "Amazon Lambda"],
-        "correctAnswer": "Amazon S3"
-      },
-      {
-        "id": 92,
-        "category": "Tecnologia",
-        "question": "Qual é o nome do padrão de codificação usado para representar caracteres em computadores?",
-        "options": ["ASCII", "Unicode", "UTF-8", "EBCDIC"],
-        "correctAnswer": "Unicode"
-      },
-      {
-        "id": 93,
-        "category": "Tecnologia",
-        "question": "Qual é o nome do conceito que descreve a prática de escrever código que é executado por um sistema de máquinas virtuais?",
-        "options": ["Virtualização", "Emulação", "Compilação Just-in-Time", "Interpretação"],
-        "correctAnswer": "Compilação Just-in-Time"
-      },
-      {
-        "id": 94,
-        "category": "Tecnologia",
-        "question": "Qual é o nome da técnica usada para melhorar o desempenho de aplicações web, armazenando dados frequentemente acessados?",
-        "options": ["Caching", "Load Balancing", "Compression", "Minification"],
-        "correctAnswer": "Caching"
-      },
-      {
-        "id": 95,
-        "category": "Tecnologia",
-        "question": "Qual é o nome do conceito que descreve a prática de dividir uma aplicação em pequenos serviços independentes?",
-        "options": ["Microservices", "Monolith", "SOA", "Serverless"],
-        "correctAnswer": "Microservices"
-      },
-      {
-        "id": 96,
-        "category": "Tecnologia",
-        "question": "Qual é o nome da ferramenta de monitoramento e gerenciamento de logs open-source?",
-        "options": ["ELK Stack", "Grafana", "Prometheus", "Nagios"],
-        "correctAnswer": "ELK Stack"
-      },
-      {
-        "id": 97,
-        "category": "Tecnologia",
-        "question": "Qual é o nome da arquitetura de software que usa uma abordagem baseada em eventos para gerenciar dados?",
-        "options": ["Event-Driven Architecture", "Layered Architecture", "Service-Oriented Architecture", "Microservices Architecture"],
-        "correctAnswer": "Event-Driven Architecture"
-      },
-      {
-        "id": 98,
-        "category": "Tecnologia",
-        "question": "Qual é o nome do sistema de gerenciamento de banco de dados relacional open-source mais popular?",
-        "options": ["MySQL", "PostgreSQL", "Oracle", "Microsoft SQL Server"],
-        "correctAnswer": "PostgreSQL"
-      },
-      {
-        "id": 99,
-        "category": "Tecnologia",
-        "question": "Qual é o nome da plataforma de desenvolvimento open-source para criar aplicações web modernas?",
-        "options": ["Vue.js", "React", "Angular", "Ember.js"],
-        "correctAnswer": "React"
-      },
-      {
-        "id": 100,
-        "category": "Tecnologia",
-        "question": "Qual é o nome da técnica usada para melhorar a segurança de um sistema, distribuindo a carga entre vários servidores?",
-        "options": ["Load Balancing", "Failover", "Replication", "Clustering"],
-        "correctAnswer": "Load Balancing"
-      },
-      {
-        "id": 101,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o maior oceano do mundo?",
-        "options": ["Oceano Atlântico", "Oceano Pacífico", "Oceano Índico", "Oceano Ártico"],
-        "correctAnswer": "Oceano Pacífico"
-      },
-      {
-        "id": 102,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é a capital da França?",
-        "options": ["Londres", "Paris", "Berlim", "Madri"],
-        "correctAnswer": "Paris"
-      },
-      {
-        "id": 103,
-        "category": "Conhecimentos Gerais",
-        "question": "Quem escreveu 'Dom Quixote'?",
-        "options": ["Miguel de Cervantes", "Gabriel García Márquez", "Jorge Luis Borges", "William Shakespeare"],
-        "correctAnswer": "Miguel de Cervantes"
-      },
-      {
-        "id": 104,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o planeta mais próximo do Sol?",
-        "options": ["Terra", "Marte", "Mercúrio", "Vênus"],
+        "category": "Young Sheldon",
+        "question": "Sheldon demonstra sua compreensão de quais partículas fundamentais no início da série?",
+        "options": ["Quarks", "Bósons", "Neutrinos", "Glúons"],
+        "correctAnswer": "Quarks"
+      },
+        {
+          "id": 21,
+          "category": "Naruto",
+          "question": "Qual é o verdadeiro nome de Yamato, o líder do Time Kakashi após a saída de Kakashi?",
+          "options": ["Tenzo", "Danzo", "Torune", "Sai"],
+          "correctAnswer": "Tenzo"
+        },
+        {
+          "id": 22,
+          "category": "Naruto",
+          "question": "Qual é o número exato de caudas da besta de chakra conhecida como Matatabi?",
+          "options": ["Duas", "Três", "Quatro", "Cinco"],
+          "correctAnswer": "Duas"
+        },
+        {
+          "id": 23,
+          "category": "Naruto",
+          "question": "Qual técnica secreta foi desenvolvida por Tobirama Senju, o Segundo Hokage, e posteriormente usada por Orochimaru?",
+          "options": ["Edo Tensei", "Hiraishin no Jutsu", "Gedo Mazo", "Kage Bunshin no Jutsu"],
+          "correctAnswer": "Edo Tensei"
+        },
+        {
+          "id": 24,
+          "category": "Naruto",
+          "question": "Qual foi a última palavra de Jiraiya antes de ser derrotado por Pain?",
+          "options": ["Naruto", "Minato", "Konoha", "Code"],
+          "correctAnswer": "Naruto"
+        },
+        {
+          "id": 25,
+          "category": "Naruto",
+          "question": "Qual é o nome da espada lendária de Zabuza Momochi, usada para realizar suas técnicas de névoa?",
+          "options": ["Kubikiribocho", "Samehada", "Kusanagi", "Hiramekarei"],
+          "correctAnswer": "Kubikiribocho"
+        },
+        {
+          "id": 26,
+          "category": "Naruto",
+          "question": "Qual clã tinha o kekkei genkai de manipulação de partículas usado por Onoki, o Terceiro Tsuchikage?",
+          "options": ["Clã Kamizuru", "Clã Yuki", "Clã Kaguya", "Clã Mu"],
+          "correctAnswer": "Clã Mu"
+        },
+        {
+          "id": 27,
+          "category": "Naruto",
+          "question": "Qual dos Três Sanins Lendários foi o primeiro a deixar a Vila da Folha?",
+          "options": ["Jiraiya", "Orochimaru", "Tsunade", "Minato"],
+          "correctAnswer": "Orochimaru"
+        },
+        {
+          "id": 28,
+          "category": "Naruto",
+          "question": "Em qual episódio Naruto finalmente domina o Rasengan completo, adicionando a ele a natureza do chakra do vento?",
+          "options": ["Episódio 81", "Episódio 97", "Episódio 101", "Episódio 104"],
+          "correctAnswer": "Episódio 81"
+        },
+        {
+          "id": 29,
+          "category": "Naruto",
+          "question": "Que tipo de chakra Naruto usa para derrotar o Caminho Animal de Pain durante a invasão à Vila da Folha?",
+          "options": ["Sennin Modo", "Chakra da Kyuubi", "Modo Bijuu", "Chakra da Natureza"],
+          "correctAnswer": "Sennin Modo"
+        },
+        {
+          "id": 30,
+          "category": "Naruto",
+          "question": "Qual foi o nome da técnica proibida usada por Might Guy durante sua luta contra Madara Uchiha no Modo Sábio dos Seis Caminhos?",
+          "options": ["Oitavo Portão da Morte", "Soco do Meio-Dia", "Lótus Primária", "Elefante do Anoitecer"],
+          "correctAnswer": "Oitavo Portão da Morte"
+        },
+        {
+          "id": 31,
+          "category": "Naruto",
+          "question": "Qual é o nome do primeiro Jinchuuriki da Kyuubi que se tornou amigo de Naruto?",
+          "options": ["Mito Uzumaki", "Kushina Uzumaki", "Kurama", "Killer Bee"],
+          "correctAnswer": "Killer Bee"
+        },
+        {
+          "id": 32,
+          "category": "Naruto",
+          "question": "Qual foi a técnica usada por Kakashi para derrotar Zabuza Momochi durante a primeira missão do Time 7?",
+          "options": ["Raikiri", "Chidori", "Sharingan", "Suiton: Suiryuudan no Jutsu"],
+          "correctAnswer": "Raikiri"
+        },
+        {
+          "id": 33,
+          "category": "Naruto",
+          "question": "Que elemento é combinado com o chakra para criar o Kekkei Genkai 'Fogo Infernal' usado por Sasuke Uchiha?",
+          "options": ["Chakra de Vento", "Chakra de Relâmpago", "Chakra de Fogo", "Chakra de Yin-Yang"],
+          "correctAnswer": "Chakra de Fogo"
+        },
+        {
+          "id": 34,
+          "category": "Naruto",
+          "question": "Quem foi o criador original da técnica do Rasengan, que Naruto posteriormente aprimorou?",
+          "options": ["Minato Namikaze", "Jiraiya", "Kakashi Hatake", "Tobirama Senju"],
+          "correctAnswer": "Minato Namikaze"
+        },
+        {
+          "id": 35,
+          "category": "Naruto",
+          "question": "Qual foi o nome da última missão de Itachi Uchiha antes de sua deserção da Vila da Folha?",
+          "options": ["Massacre do Clã Uchiha", "Proteção do Daimyo", "Recuperação da Kyuubi", "Assassinato de Shisui"],
+          "correctAnswer": "Massacre do Clã Uchiha"
+        },
+        {
+          "id": 36,
+          "category": "Naruto",
+          "question": "Que técnica especial permite a Sasuke Uchiha controlar o fogo negro do Amaterasu?",
+          "options": ["Kagutsuchi", "Tsukuyomi", "Susanoo", "Kirin"],
+          "correctAnswer": "Kagutsuchi"
+        },
+        {
+          "id": 37,
+          "category": "Naruto",
+          "question": "Qual foi o nome do líder dos Seis Caminhos de Pain que usava a habilidade de manipular corpos mortos?",
+          "options": ["Yahiko", "Nagato", "Konan", "Deva"],
+          "correctAnswer": "Nagato"
+        },
+        {
+          "id": 38,
+          "category": "Naruto",
+          "question": "Qual é o nome do clã da névoa oculto que lutou contra Zabuza e tinha técnicas relacionadas à manipulação da água?",
+          "options": ["Clã Hozuki", "Clã Yuki", "Clã Kaguya", "Clã Terumi"],
+          "correctAnswer": "Clã Hozuki"
+        },
+        {
+          "id": 39,
+          "category": "Naruto",
+          "question": "Qual o verdadeiro nome do Sábio dos Seis Caminhos?",
+          "options": ["Ashura Otsutsuki", "Hagoromo Otsutsuki", "Indra Otsutsuki", "Hamura Otsutsuki"],
+          "correctAnswer": "Hagoromo Otsutsuki"
+        },
+        {
+          "id": 40,
+          "category": "Naruto",
+          "question": "Qual é o nome do pergaminho secreto que Naruto roubou no início da série e que continha o Kage Bunshin no Jutsu?",
+          "options": ["Pergaminho dos Selos", "Pergaminho dos Nove Caudas", "Pergaminho de Fogo", "Pergaminho da Morte"],
+          "correctAnswer": "Pergaminho dos Selos"
+        },
+        {
+          "id": 41,
+          "category": "Mundo",
+          "question": "Qual é o nome do vulcão submarino que causou a maior erupção na Terra nos últimos 500 anos?",
+          "options": ["Krakatoa", "Tonga-Hunga", "Santorini", "Mauna Loa"],
+          "correctAnswer": "Tonga-Hunga"
+        },
+        {
+          "id": 42,
+          "category": "Mundo",
+          "question": "Qual país é conhecido por ter o maior número de Patrimônios Mundiais da UNESCO?",
+          "options": ["Itália", "China", "Espanha", "França"],
+          "correctAnswer": "Itália"
+        },
+        {
+          "id": 43,
+          "category": "Mundo",
+          "question": "Qual é o ponto habitado mais ao norte do mundo?",
+          "options": ["Svalbard", "Alert", "Longyearbyen", "Barrow"],
+          "correctAnswer": "Alert"
+        },
+        {
+          "id": 44,
+          "category": "Mundo",
+          "question": "Qual é o nome do rio mais longo da Europa?",
+          "options": ["Volga", "Danúbio", "Dniepre", "Reno"],
+          "correctAnswer": "Volga"
+        },
+        {
+          "id": 45,
+          "category": "Mundo",
+          "question": "Em que país foi encontrada a mais antiga evidência de civilização humana, com artefatos datando de 7 mil anos?",
+          "options": ["Síria", "Irã", "Iraque", "Turquia"],
+          "correctAnswer": "Irã"
+        },
+        {
+          "id": 46,
+          "category": "Mundo",
+          "question": "Qual cidade é conhecida por ter o maior sistema de cavernas subterrâneas do mundo?",
+          "options": ["Luray", "Mammoth Cave", "Jeita", "Waitomo"],
+          "correctAnswer": "Mammoth Cave"
+        },
+        {
+          "id": 47,
+          "category": "Mundo",
+          "question": "Qual país tem a menor densidade populacional do mundo?",
+          "options": ["Mongólia", "Namíbia", "Groenlândia", "Islândia"],
+          "correctAnswer": "Groenlândia"
+        },
+        {
+          "id": 48,
+          "category": "Mundo",
+          "question": "Qual é o nome da cidade perdida na Amazônia que inspirou lendas sobre uma civilização avançada?",
+          "options": ["Z", "El Dorado", "Paititi", "Machu Picchu"],
+          "correctAnswer": "Paititi"
+        },
+        {
+          "id": 49,
+          "category": "Mundo",
+          "question": "Qual é o nome do maior deserto de areia contínuo do mundo?",
+          "options": ["Saara", "Rub' al Khali", "Atacama", "Gobi"],
+          "correctAnswer": "Rub' al Khali"
+        },
+        {
+          "id": 50,
+          "category": "Mundo",
+          "question": "Qual é o lago de água doce mais profundo do mundo?",
+          "options": ["Baikal", "Tanganica", "Vostok", "Superior"],
+          "correctAnswer": "Baikal"
+        },
+        {
+          "id": 51,
+          "category": "Mundo",
+          "question": "Qual é a montanha mais alta do mundo quando medida a partir do centro da Terra?",
+          "options": ["Everest", "Chimborazo", "Mauna Kea", "Denali"],
+          "correctAnswer": "Chimborazo"
+        },
+        {
+          "id": 52,
+          "category": "Mundo",
+          "question": "Qual país tem a menor área de terra cultivável proporcional à sua extensão total?",
+          "options": ["Egito", "Arábia Saudita", "Omã", "Groenlândia"],
+          "correctAnswer": "Groenlândia"
+        },
+        {
+          "id": 53,
+          "category": "Mundo",
+          "question": "Qual país tem o maior número de idiomas falados oficialmente?",
+          "options": ["Papua Nova Guiné", "Índia", "Indonésia", "Nigéria"],
+          "correctAnswer": "Papua Nova Guiné"
+        },
+        {
+          "id": 54,
+          "category": "Mundo",
+          "question": "Qual é o nome da corrente oceânica que regula o clima na Europa Ocidental?",
+          "options": ["Corrente do Golfo", "Corrente do Labrador", "Corrente de Kuroshio", "Corrente de Benguela"],
+          "correctAnswer": "Corrente do Golfo"
+        },
+        {
+          "id": 55,
+          "category": "Mundo",
+          "question": "Qual país abriga o maior número de vulcões ativos no mundo?",
+          "options": ["Indonésia", "Japão", "Estados Unidos", "Filipinas"],
+          "correctAnswer": "Indonésia"
+        },
+        {
+          "id": 56,
+          "category": "Mundo",
+          "question": "Qual é o ponto mais baixo da superfície da Terra em termos de altitude?",
+          "options": ["Vale da Morte", "Mar Morto", "Trincheira das Marianas", "Vale Turfan"],
+          "correctAnswer": "Mar Morto"
+        },
+        {
+          "id": 57,
+          "category": "Mundo",
+          "question": "Em que país está localizado o maior sistema de cavernas submersas do mundo?",
+          "options": ["México", "Filipinas", "Brasil", "Bélgica"],
+          "correctAnswer": "México"
+        },
+        {
+          "id": 58,
+          "category": "Mundo",
+          "question": "Qual é a cidade mais antiga continuamente habitada no mundo?",
+          "options": ["Jericó", "Damasco", "Plovdiv", "Atenas"],
+          "correctAnswer": "Jericó"
+        },
+        {
+          "id": 59,
+          "category": "Mundo",
+          "question": "Qual é a menor ilha habitada do mundo?",
+          "options": ["Bishop Rock", "Isola Tiberina", "Just Room Enough Island", "Monuriki"],
+          "correctAnswer": "Just Room Enough Island"
+        },
+        {
+          "id": 60,
+          "category": "Mundo",
+          "question": "Qual continente abriga o maior número de zonas climáticas distintas?",
+          "options": ["África", "América do Sul", "Ásia", "América do Norte"],
+          "correctAnswer": "Ásia"
+        },
+        {
+          "id": 61,
+          "category": "JavaScript/ReactJS",
+          "question": "Qual é o nome da especificação que introduziu as classes em JavaScript?",
+          "options": ["ECMAScript 6", "ECMAScript 5", "ECMAScript 2016", "ECMAScript 7"],
+          "correctAnswer": "ECMAScript 6"
+        },
+        {
+          "id": 62,
+          "category": "JavaScript/ReactJS",
+          "question": "Qual é a principal diferença entre `null` e `undefined` em JavaScript?",
+          "options": ["`null` é um valor atribuído manualmente, enquanto `undefined` indica ausência de valor", "`undefined` é um tipo de objeto, `null` não", "`null` é usado para funções, `undefined` para variáveis", "`undefined` é uma palavra reservada, `null` não"],
+          "correctAnswer": "`null` é um valor atribuído manualmente, enquanto `undefined` indica ausência de valor"
+        },
+        {
+          "id": 63,
+          "category": "JavaScript/ReactJS",
+          "question": "Qual é o algoritmo de reconciliação usado pelo React para atualizar o DOM?",
+          "options": ["Algoritmo de Variação", "Diffing Algorithm", "Rendering Algorithm", "Optimization Algorithm"],
+          "correctAnswer": "Diffing Algorithm"
+        },
+        {
+          "id": 64,
+          "category": "JavaScript/ReactJS",
+          "question": "O que acontece quando você usa o método `setState` em um componente de classe em React?",
+          "options": ["O estado é atualizado de forma sincrônica", "O estado é atualizado de forma assíncrona", "O estado é atualizado diretamente", "O estado é redefinido"],
+          "correctAnswer": "O estado é atualizado de forma assíncrona"
+        },
+        {
+          "id": 65,
+          "category": "JavaScript/ReactJS",
+          "question": "O que o operador `&&` faz em uma renderização condicional em JSX?",
+          "options": ["Renderiza o primeiro valor verdadeiro", "Renderiza sempre `true`", "Renderiza o segundo valor se o primeiro for verdadeiro", "Renderiza um valor booleano"],
+          "correctAnswer": "Renderiza o segundo valor se o primeiro for verdadeiro"
+        },
+        {
+          "id": 66,
+          "category": "JavaScript/ReactJS",
+          "question": "Como o `useEffect` lida com dependências vazias em um componente funcional em React?",
+          "options": ["Executa o efeito toda vez que o componente é renderizado", "Nunca executa o efeito", "Executa o efeito apenas uma vez", "Executa o efeito somente quando o estado é alterado"],
+          "correctAnswer": "Executa o efeito apenas uma vez"
+        },
+        {
+          "id": 67,
+          "category": "JavaScript/ReactJS",
+          "question": "Qual método de ciclo de vida foi substituído pelo `getDerivedStateFromProps` em componentes de classe React?",
+          "options": ["`componentWillReceiveProps`", "`componentDidMount`", "`shouldComponentUpdate`", "`componentDidUpdate`"],
+          "correctAnswer": "`componentWillReceiveProps`"
+        },
+        {
+          "id": 68,
+          "category": "JavaScript/ReactJS",
+          "question": "Qual dos seguintes métodos do ciclo de vida de React não está mais disponível para uso?",
+          "options": ["`componentDidUpdate`", "`componentDidMount`", "`componentWillMount`", "`shouldComponentUpdate`"],
+          "correctAnswer": "`componentWillMount`"
+        },
+        {
+          "id": 69,
+          "category": "JavaScript/ReactJS",
+          "question": "Em JavaScript, qual é a diferença entre `==` e `===`?",
+          "options": ["`==` compara valor e tipo, `===` apenas valor", "`==` compara apenas valor, `===` compara valor e tipo", "`==` é para comparação de strings, `===` para números", "`==` é estritamente igual, `===` é estritamente diferente"],
+          "correctAnswer": "`==` compara apenas valor, `===` compara valor e tipo"
+        },
+        {
+          "id": 70,
+          "category": "JavaScript/ReactJS",
+          "question": "O que o método `bind()` faz em JavaScript?",
+          "options": ["Cria uma nova função com um novo contexto", "Modifica o contexto atual da função", "Clona uma função", "Exclui o contexto de uma função"],
+          "correctAnswer": "Cria uma nova função com um novo contexto"
+        },
+        {
+          "id": 71,
+          "category": "JavaScript/ReactJS",
+          "question": "O que o método `React.memo()` faz?",
+          "options": ["Cria componentes que não re-renderizam desnecessariamente", "Implementa uma forma de cache interno", "Força a re-renderização de componentes filhos", "Permite gerenciar o estado de forma global"],
+          "correctAnswer": "Cria componentes que não re-renderizam desnecessariamente"
+        },
+        {
+          "id": 72,
+          "category": "JavaScript/ReactJS",
+          "question": "Como você pode evitar re-renderizações desnecessárias em componentes funcionais em React?",
+          "options": ["Usando `useMemo` ou `useCallback`", "Usando `shouldComponentUpdate`", "Desativando o render do componente", "Utilizando funções anônimas"],
+          "correctAnswer": "Usando `useMemo` ou `useCallback`"
+        },
+        {
+          "id": 73,
+          "category": "JavaScript/ReactJS",
+          "question": "Em JavaScript, qual será o resultado da expressão `typeof NaN`?",
+          "options": ["`number`", "`NaN`", "`undefined`", "`object`"],
+          "correctAnswer": "`number`"
+        },
+        {
+          "id": 74,
+          "category": "JavaScript/ReactJS",
+          "question": "Qual é a principal diferença entre `let` e `var` em JavaScript?",
+          "options": ["`let` tem escopo de bloco, `var` tem escopo de função", "`let` é global, `var` é local", "`var` permite reatribuição, `let` não", "`let` é assíncrono, `var` é síncrono"],
+          "correctAnswer": "`let` tem escopo de bloco, `var` tem escopo de função"
+        },
+        {
+          "id": 75,
+          "category": "JavaScript/ReactJS",
+          "question": "Em qual versão do React os *hooks* foram introduzidos?",
+          "options": ["React 16.0", "React 15.6", "React 16.8", "React 17.1"],
+          "correctAnswer": "React 16.8"
+        },
+        {
+          "id": 76,
+          "category": "JavaScript/ReactJS",
+          "question": "O que a função `useReducer` em React permite fazer?",
+          "options": ["Gerenciar estados complexos", "Gerenciar múltiplos efeitos colaterais", "Controlar re-renderizações", "Compartilhar estados globais"],
+          "correctAnswer": "Gerenciar estados complexos"
+        },
+        {
+          "id": 77,
+          "category": "JavaScript/ReactJS",
+          "question": "O que é a `StrictMode` em React?",
+          "options": ["Um modo de depuração que alerta sobre práticas obsoletas", "Um modo que impede mudanças de estado", "Uma configuração de segurança", "Um modo de produção"],
+          "correctAnswer": "Um modo de depuração que alerta sobre práticas obsoletas"
+        },
+        {
+          "id": 78,
+          "category": "JavaScript/ReactJS",
+          "question": "O que o método `useRef` faz em um componente React?",
+          "options": ["Cria uma referência persistente para um elemento DOM", "Re-renderiza o componente automaticamente", "Gerencia estados localmente", "Controla atualizações de estado"],
+          "correctAnswer": "Cria uma referência persistente para um elemento DOM"
+        },
+        {
+          "id": 79,
+          "category": "JavaScript/ReactJS",
+          "question": "Qual é o resultado da expressão `[] + []` em JavaScript?",
+          "options": ["Uma string vazia", "`undefined`", "`null`", "Erro de sintaxe"],
+          "correctAnswer": "Uma string vazia"
+        },
+        {
+          "id": 80,
+          "category": "JavaScript/ReactJS",
+          "question": "O que acontece quando você chama `setState` dentro de `componentDidUpdate` sem uma condição de parada?",
+          "options": ["O componente entra em um loop infinito de renderizações", "O estado nunca é atualizado", "A renderização é ignorada", "O React desativa o ciclo de vida do componente"],
+          "correctAnswer": "O componente entra em um loop infinito de renderizações"
+        },
+        {
+          "id": 80,
+          "category": "Tecnologia",
+          "question": "Qual foi o primeiro processador comercialmente disponível a usar a arquitetura x86?",
+          "options": ["Intel 8086", "Intel 80286", "AMD K5", "Intel Pentium"],
+          "correctAnswer": "Intel 8086"
+        },
+        {
+          "id": 81,
+          "category": "Tecnologia",
+          "question": "Qual protocolo de comunicação foi o precursor do HTTP e é conhecido por ser utilizado para transferência de arquivos na web?",
+          "options": ["FTP", "SMTP", "Telnet", "POP3"],
+          "correctAnswer": "FTP"
+        },
+        {
+          "id": 82,
+          "category": "Tecnologia",
+          "question": "Quem é o criador do sistema de arquivos EXT4, amplamente usado em sistemas Linux?",
+          "options": ["Theodore Ts'o", "Linus Torvalds", "Richard Stallman", "Alan Cox"],
+          "correctAnswer": "Theodore Ts'o"
+        },
+        {
+          "id": 83,
+          "category": "Tecnologia",
+          "question": "Qual foi a primeira linguagem de programação de alto nível amplamente utilizada para desenvolvimento de software comercial?",
+          "options": ["Fortran", "COBOL", "Pascal", "Basic"],
+          "correctAnswer": "COBOL"
+        },
+        {
+          "id": 84,
+          "category": "Tecnologia",
+          "question": "Qual conceito de computação em nuvem permite que aplicações e dados sejam armazenados em um local centralizado e acessados por diferentes dispositivos?",
+          "options": ["Armazenamento em Nuvem", "Computação em Grade", "Virtualização", "Armazenamento Local"],
+          "correctAnswer": "Armazenamento em Nuvem"
+        },
+        {
+          "id": 85,
+          "category": "Tecnologia",
+          "question": "Qual tecnologia de rede foi desenvolvida pela primeira vez para fornecer comunicação segura entre máquinas através de uma rede pública?",
+          "options": ["VPN", "HTTPS", "SSH", "SSL"],
+          "correctAnswer": "SSL"
+        },
+        {
+          "id": 86,
+          "category": "Tecnologia",
+          "question": "Qual é a principal diferença entre a arquitetura RISC e CISC em processadores?",
+          "options": ["RISC usa instruções simples e rápidas, CISC usa instruções complexas", "RISC é mais eficiente em consumo de energia, CISC é mais rápido", "RISC tem maior largura de banda, CISC tem maior cache", "RISC é para computadores pessoais, CISC é para servidores"],
+          "correctAnswer": "RISC usa instruções simples e rápidas, CISC usa instruções complexas"
+        },
+        {
+          "id": 87,
+          "category": "Tecnologia",
+          "question": "Qual é o nome da primeira criptomoeda criada e o pseudônimo de seu criador?",
+          "options": ["Bitcoin - Satoshi Nakamoto", "Ethereum - Vitalik Buterin", "Ripple - Chris Larsen", "Litecoin - Charlie Lee"],
+          "correctAnswer": "Bitcoin - Satoshi Nakamoto"
+        },
+        {
+          "id": 88,
+          "category": "Tecnologia",
+          "question": "Qual foi a primeira empresa a lançar um disco rígido com capacidade superior a 1 terabyte?",
+          "options": ["IBM", "Seagate", "Western Digital", "Toshiba"],
+          "correctAnswer": "IBM"
+        },
+        {
+          "id": 89,
+          "category": "Tecnologia",
+          "question": "Qual é a principal função do protocolo MQTT em redes de Internet das Coisas (IoT)?",
+          "options": ["Publicar e subscrever mensagens em tópicos", "Gerenciar conexões seguras", "Armazenar dados em nuvem", "Realizar análise de dados em tempo real"],
+          "correctAnswer": "Publicar e subscrever mensagens em tópicos"
+        },
+        {
+          "id": 90,
+          "category": "Tecnologia",
+          "question": "Qual é a característica fundamental da arquitetura de microserviços em comparação com a arquitetura monolítica?",
+          "options": ["Serviços independentes e autônomos vs. um único serviço integrado", "Microserviços são mais rápidos, monolíticos são mais escaláveis", "Microserviços são usados para front-end, monolíticos para back-end", "Microserviços requerem menos manutenção"],
+          "correctAnswer": "Serviços independentes e autônomos vs. um único serviço integrado"
+        },
+        {
+          "id": 91,
+          "category": "Tecnologia",
+          "question": "Qual foi o primeiro navegador web a suportar a execução de scripts JavaScript?",
+          "options": ["Netscape Navigator", "Internet Explorer", "Opera", "Mozilla Firefox"],
+          "correctAnswer": "Netscape Navigator"
+        },
+        {
+          "id": 92,
+          "category": "Tecnologia",
+          "question": "Qual é o nome da tecnologia que permite a execução de código em paralelo em múltiplos núcleos de um processador?",
+          "options": ["Multithreading", "Multiprocessing", "Parallel Computing", "Concurrent Processing"],
+          "correctAnswer": "Multithreading"
+        },
+        {
+          "id": 93,
+          "category": "Tecnologia",
+          "question": "Qual é o nome do protocolo que define a forma como os dispositivos se comunicam em uma rede local sem fio (Wi-Fi)?",
+          "options": ["IEEE 802.11", "IEEE 802.3", "IEEE 802.15", "IEEE 802.2"],
+          "correctAnswer": "IEEE 802.11"
+        },
+        {
+          "id": 94,
+          "category": "Tecnologia",
+          "question": "Qual é o propósito principal da técnica de 'sharding' em bancos de dados?",
+          "options": ["Dividir grandes conjuntos de dados em partes menores e distribuídas", "Reduzir a redundância de dados", "Melhorar a segurança dos dados", "Aumentar a complexidade do modelo de dados"],
+          "correctAnswer": "Dividir grandes conjuntos de dados em partes menores e distribuídas"
+        },
+        {
+          "id": 95,
+          "category": "Tecnologia",
+          "question": "Qual é a diferença principal entre a virtualização e a containerização?",
+          "options": ["Virtualização cria máquinas virtuais completas, containerização usa containers leves", "Containerização cria máquinas virtuais completas, virtualização usa containers leves", "Virtualização é mais recente que containerização", "Containerização fornece mais isolamento do que virtualização"],
+          "correctAnswer": "Virtualização cria máquinas virtuais completas, containerização usa containers leves"
+        },
+        {
+          "id": 96,
+          "category": "Tecnologia",
+          "question": "Qual é o nome da tecnologia que permite que as redes de computadores sejam segmentadas em diferentes sub-redes lógicas independentemente da infraestrutura física?",
+          "options": ["VLAN", "VPN", "NAT", "ARP"],
+          "correctAnswer": "VLAN"
+        },
+        {
+          "id": 97,
+          "category": "Tecnologia",
+          "question": "Qual é o nome do algoritmo de compressão de dados que é amplamente utilizado em arquivos ZIP?",
+          "options": ["Deflate", "LZ77", "Huffman", "RLE"],
+          "correctAnswer": "Deflate"
+        },
+        {
+          "id": 98,
+          "category": "Tecnologia",
+          "question": "Qual é a principal diferença entre a arquitetura de von Neumann e a arquitetura Harvard em sistemas de computadores?",
+          "options": ["Von Neumann usa uma única memória para dados e instruções, Harvard usa memórias separadas", "Von Neumann é mais rápida, Harvard é mais lenta", "Von Neumann é usada para computação científica, Harvard para computação geral", "Harvard é mais recente que von Neumann"],
+          "correctAnswer": "Von Neumann usa uma única memória para dados e instruções, Harvard usa memórias separadas"
+        },
+        {
+          "id": 99,
+          "category": "Tecnologia",
+          "question": "Qual foi a primeira linguagem de programação a introduzir o conceito de programação orientada a objetos?",
+          "options": ["Simula", "Smalltalk", "C++", "Java"],
+          "correctAnswer": "Simula"
+        },
+        {
+          "id": 100,
+          "category": "Tecnologia",
+          "question": "Qual é o nome do padrão de comunicação usado para dispositivos de armazenamento de rede e que permite a comunicação entre sistemas de armazenamento em diferentes redes?",
+          "options": ["iSCSI", "Fibre Channel", "SATA", "SAS"],
+          "correctAnswer": "iSCSI"
+        },
+        {
+          "id": 101,
+          "category": "God of War",
+          "question": "Qual é o nome do titã que Kratos enfrenta no jogo 'God of War: Chains of Olympus'?",
+          "options": ["Atlas", "Cronos", "Prometeu", "Euríale"],
+          "correctAnswer": "Atlas"
+        },
+        {
+          "id": 102,
+          "category": "God of War",
+          "question": "Qual é o nome do deus grego que Kratos deve derrotar para libertar Pandora na primeira série de jogos?",
+          "options": ["Ares", "Zeus", "Hades", "Poseidon"],
+          "correctAnswer": "Ares"
+        },
+        {
+          "id": 103,
+          "category": "God of War",
+          "question": "Em 'God of War III', qual é o nome do local onde Kratos encontra a Fúria de Zeus?",
+          "options": ["O Submundo", "O Olho do Furacão", "O Campo de Batalha", "O Monte Olimpo"],
+          "correctAnswer": "O Monte Olimpo"
+        },
+        {
+          "id": 104,
+          "category": "God of War",
+          "question": "Qual é o nome da arma que Kratos usa para destruir a caixa de Pandora em 'God of War' (2005)?",
+          "options": ["Espada do Caos", "Espada de Athena", "Lâmina de Atena", "Espada de Zeus"],
+          "correctAnswer": "Espada do Caos"
+        },
+        {
+          "id": 105,
+          "category": "God of War",
+          "question": "Qual é o nome do personagem que Kratos faz uma aliança com para enfrentar os titãs em 'God of War III'?",
+          "options": ["Hades", "Hermes", "Poseidon", "Helios"],
+          "correctAnswer": "Poseidon"
+        },
+        {
+          "id": 106,
+          "category": "God of War",
+          "question": "Qual é o nome da deusa que Kratos deve salvar dos domínios de Ares em 'God of War' (2005)?",
+          "options": ["Atena", "Afrodite", "Artemis", "Hera"],
+          "correctAnswer": "Atena"
+        },
+        {
+          "id": 107,
+          "category": "God of War",
+          "question": "Em 'God of War: Ghost of Sparta', qual é o nome do irmão de Kratos que ele encontra no Submundo?",
+          "options": ["Deimos", "Ares", "Hermes", "Apollo"],
+          "correctAnswer": "Deimos"
+        },
+        {
+          "id": 108,
+          "category": "God of War",
+          "question": "Qual é o nome da criatura mítica que Kratos deve derrotar para obter a Lâmina do Olimpo em 'God of War III'?",
+          "options": ["Kraken", "Hydra", "Cerberus", "Colossus"],
+          "correctAnswer": "Colossus"
+        },
+        {
+          "id": 109,
+          "category": "God of War",
+          "question": "Qual é o nome do lugar que Kratos explora em 'God of War: Ascension' para tentar se libertar da Fúria?",
+          "options": ["A Torre de Hades", "O Labirinto de Daedalus", "O Deserto de Lost Souls", "O Palácio de Poseidon"],
+          "correctAnswer": "O Labirinto de Daedalus"
+        },
+        {
+          "id": 110,
+          "category": "God of War",
+          "question": "Qual é o nome da deusa que Kratos se alia para derrotar Zeus em 'God of War III'?",
+          "options": ["Nêmesis", "Hera", "Atena", "Afrodite"],
+          "correctAnswer": "Atena"
+        },
+        {
+          "id": 111,
+          "category": "God of War",
+          "question": "Em 'God of War (2018)', qual é o nome do filho de Kratos que o acompanha na jornada?",
+          "options": ["Atreus", "Deimos", "Hercules", "Orion"],
+          "correctAnswer": "Atreus"
+        },
+        {
+          "id": 112,
+          "category": "God of War",
+          "question": "Qual é o nome da deusa que Kratos deve enfrentar na batalha final de 'God of War: Ascension'?",
+          "options": ["Atena", "Nêmesis", "Hera", "Tifon"],
+          "correctAnswer": "Nêmesis"
+        },
+        {
+          "id": 113,
+          "category": "God of War",
+          "question": "Em 'God of War (2018)', qual é o nome do deus nórdico que Kratos enfrenta na batalha inicial?",
+          "options": ["Thor", "Odin", "Baldur", "Loki"],
+          "correctAnswer": "Baldur"
+        },
+        {
+          "id": 114,
+          "category": "God of War",
+          "question": "Qual é o nome da arena onde Kratos luta contra o Colosso de Rhodes em 'God of War III'?",
+          "options": ["A Arena de Ares", "O Coliseu de Roma", "O Palácio de Poseidon", "O Grande Templo de Atena"],
+          "correctAnswer": "A Arena de Ares"
+        },
+        {
+          "id": 115,
+          "category": "God of War",
+          "question": "Qual é o nome do gigante que Kratos usa para atravessar o Rio Estige em 'God of War III'?",
+          "options": ["Tifon", "Atlas", "Euríale", "Cronos"],
+          "correctAnswer": "Cronos"
+        },
+        {
+          "id": 116,
+          "category": "God of War",
+          "question": "Qual é o nome da cidade grega que Kratos destrói em 'God of War' (2005)?",
+          "options": ["Tebas", "Atenas", "Esparta", "Corinto"],
+          "correctAnswer": "Atenas"
+        },
+        {
+          "id": 117,
+          "category": "God of War",
+          "question": "Em 'God of War: Ghost of Sparta', qual é o nome da entidade que Kratos deve enfrentar para resgatar sua mãe?",
+          "options": ["Hades", "Thanatos", "Ares", "Cronos"],
+          "correctAnswer": "Thanatos"
+        },
+        {
+          "id": 118,
+          "category": "God of War",
+          "question": "Qual é o nome da irmã de Kratos que ele enfrenta em 'God of War: Ascension'?",
+          "options": ["Aletheia", "Hera", "Nemesis", "Euríale"],
+          "correctAnswer": "Nemesis"
+        },
+        {
+          "id": 119,
+          "category": "God of War",
+          "question": "Qual é o nome da deusa da justiça que Kratos enfrenta em 'God of War: Chains of Olympus'?",
+          "options": ["Eurídice", "Nêmesis", "Atena", "Hera"],
+          "correctAnswer": "Nêmesis"
+        },
+        {
+          "id": 120,
+          "category": "God of War",
+          "question": "Em 'God of War (2018)', qual é o nome do lobo gigante que Kratos e Atreus encontram no mundo nórdico?",
+          "options": ["Fenrir", "Jörmungandr", "Hel", "Sköll"],
+          "correctAnswer": "Fenrir"
+        },
+        {
+          "id": 121,
+          "category": "God of War",
+          "question": "Qual é o nome do guardião dos portões do submundo que Kratos enfrenta em 'God of War III'?",
+          "options": ["Cerberus", "Hades", "Minotauro", "Hydra"],
+          "correctAnswer": "Cerberus"
+        },
+        {
+          "id": 122,
+          "category": "God of War",
+          "question": "Qual é o nome do pai de Kratos, que ele deve enfrentar em 'God of War III'?",
+          "options": ["Zeus", "Poseidon", "Hades", "Cronos"],
+          "correctAnswer": "Zeus"
+        },
+      {
+        "id": 212,
+        "category": "Mitologia",
+        "question": "Qual era o nome da esposa de Hades na mitologia grega?",
+        "options": ["Perséfone", "Hera", "Afrodite", "Deméter"],
+        "correctAnswer": "Perséfone"
+      },
+      {
+        "id": 213,
+        "category": "Mitologia",
+        "question": "Quem matou o Minotauro na mitologia grega?",
+        "options": ["Teseu", "Hércules", "Aquiles", "Perseu"],
+        "correctAnswer": "Teseu"
+      },
+      {
+        "id": 214,
+        "category": "Mitologia",
+        "question": "Na mitologia egípcia, qual deus tinha a cabeça de falcão?",
+        "options": ["Hórus", "Anúbis", "Rá", "Osíris"],
+        "correctAnswer": "Hórus"
+      },
+      {
+        "id": 215,
+        "category": "Mitologia",
+        "question": "Quem é o deus do fogo e da forja na mitologia romana?",
+        "options": ["Vulcano", "Apolo", "Júpiter", "Netuno"],
+        "correctAnswer": "Vulcano"
+      },
+      {
+        "id": 216,
+        "category": "Mitologia",
+        "question": "Qual era o nome do cão de três cabeças que guardava os portões do submundo na mitologia grega?",
+        "options": ["Cérbero", "Hidra", "Quimera", "Orfeu"],
+        "correctAnswer": "Cérbero"
+      },
+      {
+        "id": 217,
+        "category": "Mitologia",
+        "question": "Quem foi o responsável por dar o fogo à humanidade na mitologia grega?",
+        "options": ["Prometeu", "Zeus", "Hermes", "Apolo"],
+        "correctAnswer": "Prometeu"
+      },
+      {
+        "id": 218,
+        "category": "Mitologia",
+        "question": "Qual deus nórdico é o pai de Jörmungandr, a serpente que circunda o mundo?",
+        "options": ["Loki", "Thor", "Odin", "Balder"],
+        "correctAnswer": "Loki"
+      },
+      {
+        "id": 219,
+        "category": "Mitologia",
+        "question": "Na mitologia hindu, qual deus é conhecido como o destruidor?",
+        "options": ["Shiva", "Vishnu", "Brahma", "Indra"],
+        "correctAnswer": "Shiva"
+      },
+      {
+        "id": 220,
+        "category": "Mitologia",
+        "question": "Quem é a deusa da sabedoria e da guerra estratégica na mitologia grega?",
+        "options": ["Atena", "Ártemis", "Hera", "Deméter"],
+        "correctAnswer": "Atena"
+      },
+      {
+        "id": 221,
+        "category": "Mitologia",
+        "question": "Na mitologia celta, qual era o nome do deus associado à luz e ao sol?",
+        "options": ["Lugh", "Cernunnos", "Dagda", "Brigid"],
+        "correctAnswer": "Lugh"
+      },
+      {
+        "id": 222,
+        "category": "Mitologia",
+        "question": "Na mitologia asteca, quem era o deus da guerra e do sol?",
+        "options": [
+          "Huitzilopochtli",
+          "Quetzalcoatl",
+          "Tezcatlipoca",
+          "Tlaloc"
+        ],
+        "correctAnswer": "Huitzilopochtli"
+      },
+      {
+        "id": 223,
+        "category": "Mitologia",
+        "question": "Quem é o deus grego dos mares e oceanos?",
+        "options": ["Poseidon", "Zeus", "Hades", "Apolo"],
+        "correctAnswer": "Poseidon"
+      },
+      {
+        "id": 224,
+        "category": "Mitologia",
+        "question": "Na mitologia japonesa, quem é a deusa do sol?",
+        "options": ["Amaterasu", "Tsukuyomi", "Susanoo", "Raijin"],
+        "correctAnswer": "Amaterasu"
+      },
+      {
+        "id": 225,
+        "category": "Mitologia",
+        "question": "Qual deus romano foi identificado com o deus grego Hermes?",
+        "options": ["Mercúrio", "Marte", "Jano", "Plutão"],
         "correctAnswer": "Mercúrio"
       },
       {
-        "id": 105,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é a língua oficial do Brasil?",
-        "options": ["Espanhol", "Francês", "Inglês", "Português"],
-        "correctAnswer": "Português"
+        "id": 226,
+        "category": "Mitologia",
+        "question": "Na mitologia grega, qual era o nome da ninfa transformada em uma árvore por Apolo?",
+        "options": ["Dafne", "Calipso", "Eurídice", "Eco"],
+        "correctAnswer": "Dafne"
       },
       {
-        "id": 106,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é a capital do Japão?",
-        "options": ["Seul", "Pequim", "Tóquio", "Osaka"],
-        "correctAnswer": "Tóquio"
+        "id": 227,
+        "category": "Mitologia",
+        "question": "Qual era o nome da espada mágica de Sigurd na mitologia nórdica?",
+        "options": ["Gram", "Excalibur", "Mjölnir", "Durandal"],
+        "correctAnswer": "Gram"
       },
       {
-        "id": 107,
-        "category": "Conhecimentos Gerais",
-        "question": "Quem pintou 'A Última Ceia'?",
-        "options": ["Leonardo da Vinci", "Michelangelo", "Raphael", "Caravaggio"],
-        "correctAnswer": "Leonardo da Vinci"
+        "id": 228,
+        "category": "Mitologia",
+        "question": "Quem era o deus do vinho e da loucura ritual na mitologia grega?",
+        "options": ["Dionísio", "Ares", "Hermes", "Hefesto"],
+        "correctAnswer": "Dionísio"
       },
       {
-        "id": 108,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o maior continente do mundo?",
-        "options": ["África", "Ásia", "América", "Europa"],
-        "correctAnswer": "Ásia"
+        "id": 229,
+        "category": "Mitologia",
+        "question": "Qual era o nome do rei dos deuses maias?",
+        "options": ["Hunab Ku", "Chaac", "Itzamna", "Kukulkan"],
+        "correctAnswer": "Itzamna"
       },
       {
-        "id": 109,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o nome da primeira mulher a ganhar um Prêmio Nobel?",
-        "options": ["Marie Curie", "Rosalind Franklin", "Ada Lovelace", "Alice Ball"],
-        "correctAnswer": "Marie Curie"
+        "id": 230,
+        "category": "Mitologia",
+        "question": "Na mitologia grega, qual era o nome da primeira mulher criada por Hefesto a mando de Zeus?",
+        "options": ["Pandora", "Medusa", "Nêmesis", "Hécate"],
+        "correctAnswer": "Pandora"
       },
       {
-        "id": 110,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o nome do famoso físico que formulou a teoria da relatividade?",
-        "options": ["Isaac Newton", "Galileo Galilei", "Albert Einstein", "Niels Bohr"],
-        "correctAnswer": "Albert Einstein"
+        "id": 231,
+        "category": "Mitologia",
+        "question": "Qual deus nórdico perdeu a mão para o lobo Fenrir?",
+        "options": ["Týr", "Odin", "Loki", "Thor"],
+        "correctAnswer": "Týr"
       },
       {
-        "id": 111,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o país com a maior população do mundo?",
-        "options": ["Estados Unidos", "Índia", "China", "Rússia"],
-        "correctAnswer": "China"
+        "id": 232,
+        "category": "Mitologia",
+        "question": "Quem foi a mãe de Aquiles, o herói da Guerra de Troia?",
+        "options": ["Tétis", "Helena", "Andrômaca", "Atena"],
+        "correctAnswer": "Tétis"
       },
       {
-        "id": 112,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o símbolo químico do ouro?",
-        "options": ["Au", "Ag", "Pb", "Fe"],
-        "correctAnswer": "Au"
+        "id": 233,
+        "category": "Mitologia",
+        "question": "Qual era o nome do barco que transportava as almas dos mortos na mitologia egípcia?",
+        "options": ["Mesektet", "Solar Bark", "Duamutef", "Anubis"],
+        "correctAnswer": "Mesektet"
       },
       {
-        "id": 113,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é a capital da Austrália?",
-        "options": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
-        "correctAnswer": "Canberra"
+        "id": 234,
+        "category": "Mitologia",
+        "question": "Na mitologia hindu, quem é o deus-elefante conhecido por remover obstáculos?",
+        "options": ["Ganesha", "Krishna", "Agni", "Vishnu"],
+        "correctAnswer": "Ganesha"
       },
       {
-        "id": 114,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o nome da principal moeda dos Estados Unidos?",
-        "options": ["Euro", "Dólar", "Iene", "Libra"],
-        "correctAnswer": "Dólar"
-      },
-      {
-        "id": 115,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o nome do livro sagrado do Islamismo?",
-        "options": ["Torá", "Vedas", "Alcorão", "Bíblia"],
-        "correctAnswer": "Alcorão"
-      },
-      {
-        "id": 116,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é a montanha mais alta do mundo?",
-        "options": ["Monte Kilimanjaro", "Monte Everest", "Monte McKinley", "Monte Fuji"],
-        "correctAnswer": "Monte Everest"
-      },
-      {
-        "id": 117,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o oceano que banha a costa leste dos Estados Unidos?",
-        "options": ["Oceano Pacífico", "Oceano Índico", "Oceano Atlântico", "Oceano Ártico"],
-        "correctAnswer": "Oceano Atlântico"
-      },
-      {
-        "id": 118,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o nome do famoso monumento em Paris que é uma torre de ferro?",
-        "options": ["Torre Eiffel", "Arco do Triunfo", "Catedral de Notre-Dame", "Panthéon"],
-        "correctAnswer": "Torre Eiffel"
-      },
-      {
-        "id": 119,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o nome da teoria científica que explica a origem do universo?",
-        "options": ["Teoria da Evolução", "Teoria da Relatividade", "Teoria do Big Bang", "Teoria das Cordas"],
-        "correctAnswer": "Teoria do Big Bang"
-      },
-      {
-        "id": 120,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o maior país em extensão territorial?",
-        "options": ["Estados Unidos", "Brasil", "China", "Rússia"],
-        "correctAnswer": "Rússia"
-      },
-      {
-        "id": 121,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o nome do famoso filme dirigido por Steven Spielberg sobre um extraterrestre?",
-        "options": ["ET", "Jurassic Park", "Indiana Jones", "Tubarão"],
-        "correctAnswer": "ET"
-      },
-      {
-        "id": 122,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o nome do fundador da Microsoft?",
-        "options": ["Steve Jobs", "Elon Musk", "Bill Gates", "Mark Zuckerberg"],
-        "correctAnswer": "Bill Gates"
-      },
-      {
-        "id": 123,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o nome da maior ilha do mundo?",
-        "options": ["Groenlândia", "Nova Guiné", "Borneo", "Madagascar"],
-        "correctAnswer": "Groenlândia"
-      },
-      {
-        "id": 124,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é a capital da Argentina?",
-        "options": ["Buenos Aires", "Santiago", "Montevidéu", "Lima"],
-        "correctAnswer": "Buenos Aires"
-      },
-      {
-        "id": 125,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o maior deserto do mundo?",
-        "options": ["Deserto do Saara", "Deserto de Gobi", "Deserto da Antártica", "Deserto de Kalahari"],
-        "correctAnswer": "Deserto da Antártica"
-      },
-      {
-        "id": 126,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o nome do famoso pintor espanhol conhecido por sua obra 'Guernica'?",
-        "options": ["Salvador Dalí", "Pablo Picasso", "Joan Miró", "Francisco Goya"],
-        "correctAnswer": "Pablo Picasso"
-      },
-      {
-        "id": 127,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é a língua oficial do Egito?",
-        "options": ["Árabe", "Francês", "Inglês", "Turco"],
-        "correctAnswer": "Árabe"
-      },
-      {
-        "id": 128,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o nome da primeira missão tripulada que pousou na Lua?",
-        "options": ["Apollo 11", "Apollo 12", "Apollo 13", "Apollo 14"],
-        "correctAnswer": "Apollo 11"
-      },
-      {
-        "id": 129,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o nome da famosa novela brasileira escrita por Jorge Amado?",
-        "options": ["Gabriela, Cravo e Canela", "Memórias Póstumas de Brás Cubas", "O Primo Basílio", "Dom Casmurro"],
-        "correctAnswer": "Gabriela, Cravo e Canela"
-      },
-      {
-        "id": 130,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o maior animal terrestre?",
-        "options": ["Elefante Africano", "Girafa", "Rinoceronte", "Hipopótamo"],
-        "correctAnswer": "Elefante Africano"
-      },
-      {
-        "id": 131,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o nome da teoria que afirma que os continentes estavam todos unidos em um único supercontinente?",
-        "options": ["Teoria da Deriva Continental", "Teoria da Tectônica de Placas", "Teoria do Big Bang", "Teoria da Evolução"],
-        "correctAnswer": "Teoria da Deriva Continental"
-      },
-      {
-        "id": 132,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o nome do livro de Anne Frank que descreve a vida durante a Segunda Guerra Mundial?",
-        "options": ["O Diário de Anne Frank", "A Menina do Vale", "A Vida em Tempos de Guerra", "Diário de Bordo"],
-        "correctAnswer": "O Diário de Anne Frank"
-      },
-      {
-        "id": 133,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o nome do famoso estádio de futebol em Barcelona?",
-        "options": ["Camp Nou", "Santiago Bernabéu", "Old Trafford", "Wembley"],
-        "correctAnswer": "Camp Nou"
-      },
-      {
-        "id": 134,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o nome do famoso cientista que desenvolveu a teoria da evolução das espécies?",
-        "options": ["Charles Darwin", "Gregor Mendel", "Louis Pasteur", "James Watson"],
-        "correctAnswer": "Charles Darwin"
-      },
-      {
-        "id": 135,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o nome da primeira mulher a ganhar o Prêmio Nobel da Paz?",
-        "options": ["Mother Teresa", "Malala Yousafzai", "Ellen Johnson Sirleaf", "Aung San Suu Kyi"],
-        "correctAnswer": "Mother Teresa"
-      },
-      {
-        "id": 136,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o nome do oceano que banha a costa oeste da África?",
-        "options": ["Oceano Atlântico", "Oceano Pacífico", "Oceano Índico", "Oceano Ártico"],
-        "correctAnswer": "Oceano Atlântico"
-      },
-      {
-        "id": 137,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é a capital da Itália?",
-        "options": ["Roma", "Milão", "Nápoles", "Florença"],
-        "correctAnswer": "Roma"
-      },
-      {
-        "id": 138,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o nome do famoso autor de 'Harry Potter'?",
-        "options": ["J.K. Rowling", "J.R.R. Tolkien", "George R.R. Martin", "Suzanne Collins"],
-        "correctAnswer": "J.K. Rowling"
-      },
-      {
-        "id": 139,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o nome do maior rio do mundo em comprimento?",
-        "options": ["Rio Amazonas", "Rio Nilo", "Rio Yangtze", "Rio Mississipi"],
-        "correctAnswer": "Rio Amazonas"
-      },
-      {
-        "id": 140,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é a principal religião da Índia?",
-        "options": ["Hinduísmo", "Budismo", "Islamismo", "Cristianismo"],
-        "correctAnswer": "Hinduísmo"
-      },
-      {
-        "id": 141,
-        "category": "Naruto",
-        "question": "Qual é o nome do protagonista de *Naruto*?",
-        "options": ["Sasuke Uchiha", "Naruto Uzumaki", "Sakura Haruno", "Kakashi Hatake"],
-        "correctAnswer": "Naruto Uzumaki"
-      },
-      {
-        "id": 142,
-        "category": "Naruto",
-        "question": "Qual é o nome do sensei de Naruto, Sasuke e Sakura no início da série?",
-        "options": ["Jiraiya", "Orochimaru", "Kakashi Hatake", "Minato Namikaze"],
-        "correctAnswer": "Kakashi Hatake"
-      },
-      {
-        "id": 143,
-        "category": "Naruto",
-        "question": "Qual é o nome da vila onde Naruto vive?",
-        "options": ["Vila da Pedra", "Vila da Folha", "Vila do Som", "Vila da Neve"],
-        "correctAnswer": "Vila da Folha"
-      },
-      {
-        "id": 144,
-        "category": "Naruto",
-        "question": "Qual é o nome da técnica que Naruto usa para criar múltiplas cópias de si mesmo?",
-        "options": ["Kage Bunshin no Jutsu", "Rasengan", "Chidori", "Shadow Clone Jutsu"],
-        "correctAnswer": "Kage Bunshin no Jutsu"
-      },
-      {
-        "id": 145,
-        "category": "Naruto",
-        "question": "Qual é o nome do demônio de nove caudas selado dentro de Naruto?",
-        "options": ["Shukaku", "Kurama", "Gyūki", "Isobu"],
-        "correctAnswer": "Kurama"
-      },
-      {
-        "id": 146,
-        "category": "Naruto",
-        "question": "Qual é o nome do rival de Naruto e membro do clã Uchiha?",
-        "options": ["Naruto Uzumaki", "Kakashi Hatake", "Sasuke Uchiha", "Sai"],
-        "correctAnswer": "Sasuke Uchiha"
-      },
-      {
-        "id": 147,
-        "category": "Naruto",
-        "question": "Quem é o líder da Vila da Folha antes de Tsunade?",
-        "options": ["Minato Namikaze", "Hiruzen Sarutobi", "Jiraiya", "Kakashi Hatake"],
-        "correctAnswer": "Hiruzen Sarutobi"
-      },
-      {
-        "id": 148,
-        "category": "Naruto",
-        "question": "Qual é o nome do grupo de ninjas que Naruto e seus amigos enfrentam após o exame Chunin?",
-        "options": ["Akatsuki", "Orochimaru", "Konoha 11", "Hoshigaki"],
-        "correctAnswer": "Akatsuki"
-      },
-      {
-        "id": 149,
-        "category": "Naruto",
-        "question": "Qual é a habilidade especial de Itachi Uchiha?",
-        "options": ["Sharingan", "Byakugan", "Rinnegan", "Jutsu de Água"],
-        "correctAnswer": "Sharingan"
-      },
-      {
-        "id": 150,
-        "category": "Naruto",
-        "question": "Qual é o nome do mestre do Jutsu de Invocação que Naruto aprende?",
-        "options": ["Kakashi Hatake", "Jiraiya", "Orochimaru", "Tsunade"],
-        "correctAnswer": "Jiraiya"
-      },
-      {
-        "id": 151,
-        "category": "Naruto",
-        "question": "Qual é o nome da técnica que permite ao usuário criar uma esfera de energia de alta potência?",
-        "options": ["Rasengan", "Chidori", "Kage Bunshin", "Amaterasu"],
-        "correctAnswer": "Rasengan"
-      },
-      {
-        "id": 152,
-        "category": "Naruto",
-        "question": "Quem é o fundador do clã Uchiha?",
-        "options": ["Madara Uchiha", "Hashirama Senju", "Tobirama Senju", "Hiruzen Sarutobi"],
-        "correctAnswer": "Madara Uchiha"
-      },
-      {
-        "id": 153,
-        "category": "Naruto",
-        "question": "Qual é o nome do jutsu que permite ao usuário manipular a água?",
-        "options": ["Jutsu de Fogo", "Jutsu de Água", "Jutsu de Terra", "Jutsu de Vento"],
-        "correctAnswer": "Jutsu de Água"
-      },
-      {
-        "id": 154,
-        "category": "Naruto",
-        "question": "Qual é o nome da organização criminosa que procura capturar as Bestas com Caudas?",
-        "options": ["Akatsuki", "Konoha", "Taka", "Orochimaru"],
-        "correctAnswer": "Akatsuki"
-      },
-      {
-        "id": 155,
-        "category": "Naruto",
-        "question": "Qual é o nome do personagem que é o chefe da Vila da Folha na série original?",
-        "options": ["Tsunade", "Hiruzen Sarutobi", "Minato Namikaze", "Danzo Shimura"],
-        "correctAnswer": "Hiruzen Sarutobi"
-      },
-      {
-        "id": 156,
-        "category": "Naruto",
-        "question": "Qual é a habilidade especial de Sakura Haruno que a torna uma ninja médica?",
-        "options": ["Técnica de Cura", "Tsukuyomi", "Rasengan", "Kage Bunshin"],
-        "correctAnswer": "Técnica de Cura"
-      },
-      {
-        "id": 157,
-        "category": "Naruto",
-        "question": "Qual é o nome do irmão mais novo de Itachi Uchiha?",
-        "options": ["Sasuke Uchiha", "Shisui Uchiha", "Obito Uchiha", "Madara Uchiha"],
-        "correctAnswer": "Sasuke Uchiha"
-      },
-      {
-        "id": 158,
-        "category": "Naruto",
-        "question": "Qual é a técnica que permite ao usuário criar ilusões poderosas?",
-        "options": ["Genjutsu", "Taijutsu", "Ninjutsu", "Kekkei Genkai"],
-        "correctAnswer": "Genjutsu"
-      },
-      {
-        "id": 159,
-        "category": "Naruto",
-        "question": "Qual é o nome do clã que possui a habilidade do Byakugan?",
-        "options": ["Uchiha", "Hyuga", "Akimichi", "Nara"],
-        "correctAnswer": "Hyuga"
-      },
-      {
-        "id": 160,
-        "category": "Naruto",
-        "question": "Qual é o nome da técnica que permite ao usuário controlar a gravidade?",
-        "options": ["Jutsu de Gravidade", "Jutsu de Espaço-Tempo", "Jutsu de Manipulação", "Jutsu de Controle"],
-        "correctAnswer": "Jutsu de Espaço-Tempo"
-      },
-      {
-        "id": 161,
-        "category": "Naruto",
-        "question": "Qual é o nome do ninja que possui o poder do Rinnegan?",
-        "options": ["Pain", "Obito Uchiha", "Madara Uchiha", "Sasuke Uchiha"],
-        "correctAnswer": "Pain"
-      },
-      {
-        "id": 162,
-        "category": "Naruto",
-        "question": "Qual é o nome do jutsu que permite ao usuário invocar animais gigantes?",
-        "options": ["Jutsu de Invocação", "Jutsu de Transformação", "Jutsu de Clonagem", "Jutsu de Fusão"],
-        "correctAnswer": "Jutsu de Invocação"
-      },
-      {
-        "id": 163,
-        "category": "Naruto",
-        "question": "Qual é o nome do jutsu que permite ao usuário mover-se a uma velocidade extremamente alta?",
-        "options": ["Shunshin no Jutsu", "Rasengan", "Chidori", "Hiraishin no Jutsu"],
-        "correctAnswer": "Shunshin no Jutsu"
-      },
-      {
-        "id": 164,
-        "category": "Naruto",
-        "question": "Qual é o nome do terceiro Hokage da Vila da Folha?",
-        "options": ["Hiruzen Sarutobi", "Tsunade Senju", "Minato Namikaze", "Kakashi Hatake"],
-        "correctAnswer": "Hiruzen Sarutobi"
-      },
-      {
-        "id": 165,
-        "category": "Hannibal",
-        "question": "Qual é o nome do personagem principal da série *Hannibal*?",
-        "options": ["Will Graham", "Jack Crawford", "Hannibal Lecter", "Alana Bloom"],
-        "correctAnswer": "Hannibal Lecter"
-      },
-      {
-        "id": 166,
-        "category": "Hannibal",
-        "question": "Qual é a profissão de Will Graham na série?",
-        "options": ["Detetive", "Professor", "Psicólogo", "Agente do FBI"],
-        "correctAnswer": "Agente do FBI"
-      },
-      {
-        "id": 167,
-        "category": "Hannibal",
-        "question": "Qual é a especialidade de Hannibal Lecter?",
-        "options": ["Psicologia", "Culinária", "Medicina", "Matemática"],
-        "correctAnswer": "Culinária"
-      },
-      {
-        "id": 168,
-        "category": "Hannibal",
-        "question": "Qual é o nome da série baseada nos romances de Thomas Harris?",
-        "options": ["Hannibal", "Silence of the Lambs", "Red Dragon", "Hannibal Rising"],
-        "correctAnswer": "Hannibal"
-      },
-      {
-        "id": 169,
-        "category": "Hannibal",
-        "question": "Quem é o protagonista da série que é um profiler do FBI e possui uma habilidade especial de empatia?",
-        "options": ["Will Graham", "Hannibal Lecter", "Jack Crawford", "Alana Bloom"],
-        "correctAnswer": "Will Graham"
-      },
-      {
-        "id": 170,
-        "category": "Hannibal",
-        "question": "Qual é o nome do agente do FBI que se torna um dos principais adversários de Hannibal Lecter?",
-        "options": ["Jack Crawford", "Hannibal Lecter", "Will Graham", "Beverly Katz"],
-        "correctAnswer": "Jack Crawford"
-      },
-      {
-        "id": 171,
-        "category": "Hannibal",
-        "question": "Qual é a relação entre Hannibal Lecter e Will Graham na série?",
-        "options": ["Inimigos", "Parceiros de trabalho", "Amigos de infância", "Mentor e pupilo"],
-        "correctAnswer": "Mentor e pupilo"
-      },
-      {
-        "id": 172,
-        "category": "Hannibal",
-        "question": "Quem é o personagem que trabalha como forense e tem um relacionamento complicado com Hannibal Lecter?",
-        "options": ["Beverly Katz", "Alana Bloom", "Will Graham", "Jack Crawford"],
-        "correctAnswer": "Beverly Katz"
-      },
-      {
-        "id": 173,
-        "category": "Hannibal",
-        "question": "Qual é o nome da personagem que é a psicóloga e também o interesse romântico de Will Graham?",
-        "options": ["Alana Bloom", "Margot Verger", "Hannibal Lecter", "Beverly Katz"],
-        "correctAnswer": "Alana Bloom"
-      },
-      {
-        "id": 174,
-        "category": "Hannibal",
-        "question": "Qual é o nome do episódio piloto da série *Hannibal*?",
-        "options": ["Apéritif", "Savoureux", "Rôti", "Buffet"],
-        "correctAnswer": "Apéritif"
-      },
-      {
-        "id": 175,
-        "category": "Hannibal",
-        "question": "Qual é o nome do rival de Hannibal Lecter que é um dos principais antagonistas da série?",
-        "options": ["Mason Verger", "Francis Dolarhyde", "Hannibal Lecter", "Jack Crawford"],
-        "correctAnswer": "Mason Verger"
-      },
-      {
-        "id": 176,
-        "category": "Hannibal",
-        "question": "Qual é a profissão de Hannibal Lecter além de ser um psicólogo?",
-        "options": ["Chef", "Artista", "Detetive", "Professor"],
-        "correctAnswer": "Chef"
-      },
-      {
-        "id": 177,
-        "category": "Hannibal",
-        "question": "Quem é o diretor da série *Hannibal*?",
-        "options": ["David Slade", "Bryan Fuller", "Michael Rymer", "Guillermo del Toro"],
-        "correctAnswer": "Bryan Fuller"
-      },
-      {
-        "id": 178,
-        "category": "Hannibal",
-        "question": "Qual é o nome do ator que interpreta Hannibal Lecter na série?",
-        "options": ["Mads Mikkelsen", "Anthony Hopkins", "Hugh Dancy", "Laurence Fishburne"],
-        "correctAnswer": "Mads Mikkelsen"
-      },
-      {
-        "id": 179,
-        "category": "Hannibal",
-        "question": "Qual é o nome da segunda temporada de *Hannibal*?",
-        "options": ["Fallen", "The Great Red Dragon", "Amuse-Bouche", "Suicide"],
-        "correctAnswer": "The Great Red Dragon"
-      },
-      {
-        "id": 180,
-        "category": "Hannibal",
-        "question": "Qual é o nome da personagem que se torna uma das vítimas de Hannibal Lecter na primeira temporada?",
-        "options": ["Miriam Lass", "Beverly Katz", "Abigail Hobbs", "Freddie Lounds"],
-        "correctAnswer": "Abigail Hobbs"
-      },
-      {
-        "id": 181,
-        "category": "Hannibal",
-        "question": "Qual é a identidade secreta que Hannibal usa para se infiltrar na vida de seus alvos?",
-        "options": ["Dr. Bedelia Du Maurier", "Dr. Hannibal Lecter", "Dr. John Smith", "Dr. Paul Krendler"],
-        "correctAnswer": "Dr. Hannibal Lecter"
-      },
-      {
-        "id": 182,
-        "category": "Hannibal",
-        "question": "Qual é o nome da série que precede a série *Hannibal* e é baseada nos romances de Thomas Harris?",
-        "options": ["Silence of the Lambs", "Red Dragon", "Hannibal Rising", "Clarice"],
-        "correctAnswer": "Silence of the Lambs"
-      },
-      {
-        "id": 183,
-        "category": "Hannibal",
-        "question": "Qual é a principal característica do personagem Hannibal Lecter que o torna notório?",
-        "options": ["Sua habilidade culinária", "Sua habilidade de luta", "Sua inteligência", "Sua empatia"],
-        "correctAnswer": "Sua habilidade culinária"
-      },
-      {
-        "id": 184,
-        "category": "Hannibal",
-        "question": "Quem é o ator que interpreta Will Graham na série *Hannibal*?",
-        "options": ["Hugh Dancy", "Mads Mikkelsen", "Laurence Fishburne", "Caroline Dhavernas"],
-        "correctAnswer": "Hugh Dancy"
-      },
-      {
-        "id": 185,
-        "category": "Hannibal",
-        "question": "Qual é o nome do personagem que é um amigo de Will Graham e também um psicólogo?",
-        "options": ["Dr. Hannibal Lecter", "Dr. Paul Krendler", "Dr. John Smith", "Dr. Bedelia Du Maurier"],
-        "correctAnswer": "Dr. Bedelia Du Maurier"
-      },
-      {
-        "id": 185,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o nome do ponto mais baixo na superfície da Terra, localizado no Mar Morto?",
-        "options": ["Challenger Deep", "Mariana Trench", "Dallol", "Lake Baikal"],
-        "correctAnswer": "Dallol"
-      },
-      {
-        "id": 186,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o país mais extenso da Terra em termos de área geográfica?",
-        "options": ["Rússia", "Canadá", "Estados Unidos", "China"],
-        "correctAnswer": "Rússia"
-      },
-      {
-        "id": 187,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual cidade é considerada o 'berço da democracia'?",
-        "options": ["Roma", "Atenas", "Jerusalém", "Cairo"],
-        "correctAnswer": "Atenas"
-      },
-      {
-        "id": 188,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é a língua oficial do Estado do Vaticano?",
-        "options": ["Latim", "Italiano", "Francês", "Inglês"],
-        "correctAnswer": "Latim"
-      },
-      {
-        "id": 189,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o país com a maior densidade populacional do mundo?",
-        "options": ["Mônaco", "Singapura", "Bangladesh", "Países Baixos"],
-        "correctAnswer": "Mônaco"
-      },
-      {
-        "id": 190,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual país possui a maior quantidade de ilhas do mundo?",
-        "options": ["Suécia", "Finlândia", "Canadá", "Noruega"],
-        "correctAnswer": "Suécia"
-      },
-      {
-        "id": 191,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o maior deserto quente do mundo?",
-        "options": ["Deserto do Saara", "Deserto de Gobi", "Deserto de Kalahari", "Deserto de Atacama"],
-        "correctAnswer": "Deserto do Saara"
-      },
-      {
-        "id": 192,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é a montanha mais alta da Terra se considerada a partir de sua base no fundo do mar?",
-        "options": ["Everest", "Mauna Kea", "Kilimanjaro", "Aconcágua"],
-        "correctAnswer": "Mauna Kea"
-      },
-      {
-        "id": 193,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o rio mais longo do mundo?",
-        "options": ["Rio Nilo", "Rio Amazonas", "Rio Yangtze", "Rio Mississippi"],
-        "correctAnswer": "Rio Nilo"
-      },
-      {
-        "id": 194,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é a capital de Nauru, o terceiro menor país do mundo?",
-        "options": ["Yaren", "Funafuti", "Tarawa", "Port Moresby"],
-        "correctAnswer": "Yaren"
-      },
-      {
-        "id": 195,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o nome do maior lago de água doce do mundo em volume de água?",
-        "options": ["Lago Baikal", "Lago Superior", "Lago Vitória", "Lago Huron"],
-        "correctAnswer": "Lago Baikal"
-      },
-      {
-        "id": 196,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é a cidade mais antiga continuamente habitada do mundo?",
-        "options": ["Jericó", "Damascus", "Atenas", "Roma"],
-        "correctAnswer": "Jericó"
-      },
-      {
-        "id": 197,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é a capital do Butão?",
-        "options": ["Thimphu", "Kathmandu", "Lhasa", "Dhaka"],
-        "correctAnswer": "Thimphu"
-      },
-      {
-        "id": 198,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o nome da linha imaginária que divide a Terra em hemisférios Norte e Sul?",
-        "options": ["Linha do Equador", "Meridiano de Greenwich", "Linha de Tordesilhas", "Círculo Polar Ártico"],
-        "correctAnswer": "Linha do Equador"
-      },
-      {
-        "id": 199,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o maior país da África em termos de área?",
-        "options": ["Argélia", "Sudão", "Nigéria", "Egito"],
-        "correctAnswer": "Argélia"
-      },
-      {
-        "id": 200,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o menor país do mundo em termos de população?",
-        "options": ["Vaticano", "Mônaco", "San Marino", "Liechtenstein"],
-        "correctAnswer": "Vaticano"
-      },
-      {
-        "id": 201,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o país mais pequeno da Oceania em termos de área?",
-        "options": ["Nauru", "Tuvalu", "Palau", "Vanuatu"],
-        "correctAnswer": "Nauru"
-      },
-      {
-        "id": 202,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o nome do maior vulcão ativo do mundo?",
-        "options": ["Mauna Loa", "Kilauea", "Mount St. Helens", "Mount Fuji"],
-        "correctAnswer": "Mauna Loa"
-      },
-      {
-        "id": 203,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual país possui a maior extensão de litoral do mundo?",
-        "options": ["Canadá", "Austrália", "Brasil", "Rússia"],
-        "correctAnswer": "Canadá"
-      },
-      {
-        "id": 204,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o nome do maior arquipélago do mundo em número de ilhas?",
-        "options": ["Arquipélago da Indonésia", "Arquipélago das Filipinas", "Arquipélago das Malvinas", "Arquipélago da Noruega"],
-        "correctAnswer": "Arquipélago da Indonésia"
-      },
-      {
-        "id": 205,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o país com a maior quantidade de cachoeiras do mundo?",
-        "options": ["Canadá", "Noruega", "Nova Zelândia", "Estados Unidos"],
-        "correctAnswer": "Canadá"
-      },
-      {
-        "id": 206,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o nome da corrente oceânica que é a maior corrente de água do planeta?",
-        "options": ["Corrente do Golfo", "Corrente de Kuroshio", "Corrente de Humboldt", "Corrente Circumpolar Antártica"],
-        "correctAnswer": "Corrente Circumpolar Antártica"
-      },
-      {
-        "id": 207,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o país com a maior quantidade de reservas de petróleo comprovadas?",
-        "options": ["Venezuela", "Arábia Saudita", "Irã", "Iraque"],
-        "correctAnswer": "Venezuela"
-      },
-      {
-        "id": 208,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o menor continente em termos de área?",
-        "options": ["Oceania", "Antártica", "Europa", "Ásia"],
-        "correctAnswer": "Oceania"
-      },
-      {
-        "id": 209,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o nome da cidade que é a sede das Nações Unidas?",
-        "options": ["Genebra", "Nova York", "Paris", "Viena"],
-        "correctAnswer": "Nova York"
-      },
-      {
-        "id": 210,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o nome do lago que é o maior em superfície de água doce do mundo?",
-        "options": ["Lago Superior", "Lago Baikal", "Lago Vitória", "Lago Huron"],
-        "correctAnswer": "Lago Superior"
-      },
-      {
-        "id": 211,
-        "category": "Conhecimentos Gerais",
-        "question": "Qual é o nome do país que tem a maior quantidade de línguas oficiais?",
-        "options": ["Indonésia", "Índia", "Suíça", "Canadá"],
-        "correctAnswer": "Índia"
-      },
-      {
-        "id": 212,
-        "category": "Teste",
-        "question": "Essa eé uma pergunta de teste?",
-        "options": ["Sim", "Não", "Talvez", "Não Sei"],
-        "correctAnswer": "Sim"
+        "id": 235,
+        "category": "Mitologia",
+        "question": "Qual era o nome da deusa grega da discórdia, cujo pomo causou a Guerra de Troia?",
+        "options": ["Éris", "Hera", "Afrodite", "Ártemis"],
+        "correctAnswer": "Éris"
       }
     ]
   }

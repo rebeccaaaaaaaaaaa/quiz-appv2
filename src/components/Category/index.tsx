@@ -11,7 +11,7 @@ export default function QuizCategorySelector() {
         Olá, {playerName}! Selecione uma categoria
       </h1>
       <div className="p-5 max-w-[400px] bg-white border-2 border-gray-300 rounded-lg shadow-md">
-        <ul>
+        <ul className="flex flex-wrap gap-1">
           {categories.map((category) => (
             <li
               key={category}
